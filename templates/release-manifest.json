@@ -1,0 +1,196 @@
+{
+  "master": {
+    "path": "",
+    "sha256": ""
+  },
+  "artifacts": {
+    "brief": {
+      "path": "",
+      "sha256": ""
+    },
+    "claim_ledger": {
+      "path": "",
+      "sha256": ""
+    },
+    "brand_ledger": {
+      "path": "",
+      "sha256": ""
+    },
+    "reference_manifest": {
+      "path": "",
+      "sha256": ""
+    },
+    "styleframes": {
+      "path": "",
+      "sha256": ""
+    },
+    "animatic_a": {
+      "path": "",
+      "sha256": ""
+    },
+    "animatic_b": {
+      "path": "",
+      "sha256": ""
+    },
+    "shot_test": {
+      "path": "",
+      "sha256": ""
+    },
+    "timeline": {
+      "path": "",
+      "sha256": ""
+    },
+    "cue_sheet": {
+      "path": "",
+      "sha256": ""
+    },
+    "audio_stems": {
+      "path": "",
+      "sha256": ""
+    },
+    "pacing_report": {
+      "path": "",
+      "sha256": ""
+    },
+    "shot_review": {
+      "path": "",
+      "sha256": ""
+    },
+    "comparison_report": {
+      "path": "",
+      "sha256": ""
+    },
+    "revision_log": {
+      "path": "",
+      "sha256": ""
+    },
+    "technical_report": {
+      "path": "",
+      "sha256": ""
+    }
+  },
+  "references": [
+    {
+      "url": "",
+      "timestamp": "",
+      "roles": [
+        "LOOK"
+      ],
+      "observed": false,
+      "mechanism": "",
+      "evidence": {
+        "path": "",
+        "sha256": ""
+      }
+    }
+  ],
+  "visual_playback_reviewed": false,
+  "audio_auditioned": false,
+  "brand_assets_verified": false,
+  "claims_verified": false,
+  "hero_test_passed": false,
+  "review": {
+    "master_sha256": "",
+    "human_independent_review": false,
+    "reviewer": "",
+    "dimensions": {
+      "concept": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "art_direction": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "typography": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "brand": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "copy": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "storytelling": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "motion": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "pacing": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "continuity": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "camera": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "material": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "compositing": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "sound_design": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "music": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "sync": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      },
+      "commercial_clarity": {
+        "score": null,
+        "timestamp": "",
+        "comparison": "",
+        "reason": ""
+      }
+    },
+    "issues": []
+  }
+}
