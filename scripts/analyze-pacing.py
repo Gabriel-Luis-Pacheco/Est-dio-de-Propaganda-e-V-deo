@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Sample RGB frame differences. Diagnostic only: cannot measure editorial quality."""
 import argparse
+import hashlib
 import json
 import math
 import subprocess
@@ -76,6 +77,14 @@ def main():
     report["method"]={"fps":a.fps,"width":a.width,"height":a.height,"rgb_max_delta_gt":a.threshold,
                       "low_changed_pixel_fraction_lt":a.fraction,
                       "note":"Adjacent resampled RGB frame pairs; interval i represents i/fps to (i+1)/fps. Last frame has no following comparison. VFR and different scaling/fps can change results. Low activity is not dead time or an automatic failure."}
+    def sha(path):
+        h=hashlib.sha256()
+        with path.open("rb") as f:
+            for block in iter(lambda:f.read(1024*1024),b""): h.update(block)
+        return h.hexdigest()
+    report["master_sha256"]=sha(a.video)
+    report["timeline_sha256"]=sha(a.timeline) if a.timeline else None
+    report["review_windows"]=[] # fill after actual editorial inspection
     a.out.parent.mkdir(parents=True,exist_ok=True)
     a.out.write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     print(f"Wrote {a.out}; editorial review required.")
