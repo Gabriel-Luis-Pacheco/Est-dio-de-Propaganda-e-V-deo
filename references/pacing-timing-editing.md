@@ -66,3 +66,6 @@ Para peças importantes: selecione 3 filmes com movimentos e objetivos comparáv
 - [Google — ABCD](https://business.google.com/us/resources/articles/abcds-of-effective-video-ads/): atenção, branding, conexão e direção; chegar ao núcleo cedo, mostrar benefício.
 - [Bitmap](https://www.bitmapstudio.com/work), [Launchscene / Linear](https://launchscene.app/brands/linear): fontes para pesquisa comparativa de launch films. Estudar vídeo original autorizado antes de afirmar medidas.
 As regras acima são síntese operacional própria da análise anterior, não reprodução dos livros nem alegação de leitura integral. Revalidar fontes e testar hipóteses com o público.
+
+## Pacing não basta
+Dayform V3 reduziu tempo morto mas permaneceu slideshow raster. Aplicar [direção espacial e motion craft](spatial-motion-direction.md) e gate espacial junto ao temporal. Não confundir mais mudanças de pixels ou corte rápido com coreografia, câmera, materialidade e transformação expressiva.

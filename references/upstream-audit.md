@@ -1,4 +1,5 @@
 # Auditoria de fontes e regras transferidas — 25/11/2026
+Registro histórico de pesquisa; não constitui lista de dependências ativas. A seleção vigente está em [motion-stack.md](motion-stack.md) e [auditoria tecnológica](../docs/motion-technology-audit.md). Prioridade universal HyperFrames-first e catálogos redundantes foram retirados.
 Consultamos arquivos SKILL.md reais do GitHub, não só os nomes das ferramentas. Os extratos revisados incluem cabeçalhos, regras e trechos iniciais; não afirmamos leitura de todas as dependências, instalação ou execução. O guia original fornecido orientou a seleção. Aplicar as regras localmente e ler a versão integral selecionada no job.
  
 | Fonte oficial | Blob consultado (SHA) | Regra acionável para o BataTalk |

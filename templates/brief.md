@@ -35,3 +35,10 @@ Primeiro produto / primeira prova / payoff / CTA:
 Mapa de ritmo, pausas motivadas, frases sonoras e leitura:
 Animatic A/B / duração escolhida e razão:
 Preencher [pacing-review.md](pacing-review.md) antes de acabamento e repetir no final.
+
+# DIREÇÃO ESPACIAL E MOTION CRAFT
+Linguagem (2D/2.5D/3D) e por quê / metáfora / objeto âncora:
+Styleframes 3–5 / blocking / câmera e lente / iluminação e materiais:
+Transformação hero / shared element / gesto dominante + reação:
+Motor por shot / backend / licença / teste 2–5s / evidência:
+Preencher [motion-shot-plan.md](motion-shot-plan.md) e gate espacial antes do acabamento.

@@ -7,12 +7,12 @@ Crie um job isolado. Identifique: missão, público, país, língua, produto atu
 ## 2. Roteador de skills: ação, não catálogo
 | Missão | Skill primária | Complementos condicionais | Evidência mínima |
 |---|---|---|---|
-| Launch film / anúncio de produto | HyperFrames (launch, capture, reverse-any-video, style-sampling) | Stewdio blank-page/screens-to-video, video-shotcraft, GSAP, LottieFiles, claude-motion | captura real, brief medido, timeline, MP4 |
-| UI demonstrativa | Emil/AiforUI, Motion ou GSAP | DesignBookmark Motion, Stewdio, HyperFrames | movimento medido, antes/depois e vídeo |
-| Motion abstrato | HyperFrames + LottieFiles ou claude-motion | motion-prompt, mg-styles-15, Charlie947 | prova de gesto, sheet, turn |
+| Launch film / anúncio de produto | Blender+bpy para launch 3D; HyperFrames/Remotion+GSAP para UI; conforme stack ativa | Stewdio, video-shotcraft, compositor | captura real, styleframes, blocking, teste de motion, timeline, MP4 |
+| UI demonstrativa | GSAP + HyperFrames/Remotion | Stewdio, captura Playwright | movimento medido, antes/depois e vídeo |
+| Motion abstrato | Blender Geometry Nodes/C4D/Houdini; Cavalry/GSAP se 2D | LottieFiles/claude-motion para princípios/revisão | prova de gesto, sheet, turn |
 | Série de versões | Remotion skills oficiais | HyperFrames variáveis, captions | mesmo contrato, variantes renderizadas e QA de cada uma |
 | Explicador | Motion Canvas ou HyperFrames | Remotion, SVG, LottieFiles | clareza visual, pedagogia verificada |
-| 3D | Blender skills | Three.js, Stewdio câmera | movimento e enquadramento sem deformação |
+| 3D | Blender+bpy ou motor 3D da stack comprovado | Three.js, compositor | geometria, câmera real, materiais, motion test |
 | Footage/UGC | video-use e FFmpeg | HyperFrames para composição, captions | cortes por palavra, licenças, transcrição e loudness |
 | Arte e conversão | Best-Designer-in-the-World.- / Hallmark | marketingskills/video | crítica anti-slop e evidência comercial |
 Para cada skill selecionada: localizar arquivo instalado ou fonte oficial, ler SKILL.md e somente referências pertinentes, verificar licença/custo, registrar versão e 2–5 regras concretas a aplicar. Instalar no escopo do job apenas se autorizado; usar fallback documentado se indisponível. Não fingir que leu ou rodou skill por reconhecer o nome. Não enviar capturas privadas a MCPs externos. Referências a comandos no guia são pontos de partida, confirmar sintaxe na versão instalada.
@@ -26,12 +26,13 @@ Escolher conceito por mensagem/prova, não por efeito. Fazer 3 propostas breves,
 Para filme de feature: abrir com resultado/benefício, mostrar 2–3 ações reais com ritmo crescente, variar plano geral do aparelho/tela e detalhe, uma transformação que amplifica o mecanismo, end card. Para esquetes: contexto, causa e reação, timing de comédia; CTA só se fizer sentido. Para aquisição: primeira prova cedo, CTA verificável. Não universalizar duração 34s nem produto em 2s para orgânico.
 Feedback delta: timestamp/alvo → problema → mudança específica → magnitude/direção → o que preservar → critério de sucesso. “Mais premium” não é uma instrução válida.
  
-## 5. Animatic, montagem e implementação
+## 5. Styleframes, blocking, animatic e implementação
+Para launch/CGI leia [direção espacial](spatial-motion-direction.md) e selecione motor por [stack ativa](motion-stack.md). Antes do acabamento: styleframes, preflight real, blocking 3D ou 2D sofisticado, shot plan, teste curto representativo. Câmera, materiais, coreografia e transformação devem estar demonstrados. Não usar screenshot-only/Pillow como motor criativo premium; se backend falhar, fallback da mesma classe ou rascunho rotulado.
 Antes do acabamento, aplicar [direção temporal](pacing-timing-editing.md): roteiro causal, eventos e consequência, animatic A/B com áudio guia, análise temporal e crítica de remoção, teste linear e evidência em pacing-review.md. Duração só é fixada após validar conteúdo ou justificar restrição externa. Não avançar com P1 temporal. Mapear ritmo de 3 referências e medir gestos comparáveis; cenas estáticas bonitas não provam pacing.
 Timeline única de imagem/som/captions, determinística por frame. Texto em HTML/SVG/React por cima de imagem, sem texto gerado no raster. Capturar ativos reais (HyperFrames capture ou browser local) e usar componentes/tokens atuais do produto. Comparar protótipo de 2–5s contra trecho selecionado: início, meio, fim, trajetória, peso, escala e transição. Escolher motor depois da prova, não antes se houver risco. Preferir poucas composições fortes; render preliminar pequeno. Reutilizar um gesto comprovado, não uma propaganda inteira. Para geração de imagens/vídeo, exigir direitos, consistência, orçamento e sinalização; footage autorizado apenas.
 
 ## 6. Critério de aprovação
-Gate A: evidence.md com claims e direitos; B: refs/manifest com frames e transfer map; C: storyboard + timeline; C2: animatic comparativo e gate temporal; D: prova de motion renderizada; E: draft + sheets, análise de pacing, revisão linear e crítica comparativa; F: correções rerenderizadas e export final com rechecagem temporal.
+Gate A: evidence.md com claims e direitos; B: refs/manifest com frames e transfer map; C: storyboard + timeline; C2: styleframes, blocking, animatic comparativo e gate temporal; D: prova de motion renderizada e gate espacial; E: draft + sheets, análise de pacing, revisão linear e crítica comparativa; F: correções rerenderizadas e export final com rechecagem temporal.
 Pontuar 0–5 em cada categoria: conceito, composição, hierarquia tipográfica, continuidade e peso do movimento, coreografia, prova real, copy/localização, áudio/legendas, adequação do canal. Não dar nota sem exemplo de frame ou timestamp. Comparar 3 trechos com referências profissionais e identificar o que ainda está inferior. Qualquer P0/P1 do production-qa bloqueia. Revisar sem som e com som quando possível; se não houver audição, reportar a lacuna. Um leigo deve compreender o que aconteceu sem briefing. Não maquiar uma cena ruim com efeitos. Refazer a cena quando conceito falhar.
  
 ## 7. Aprendizagem acumulativa

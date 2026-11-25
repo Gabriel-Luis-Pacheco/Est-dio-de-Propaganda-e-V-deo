@@ -26,3 +26,6 @@ Método Stewdio blank-page: 5 referências visuais de uma estética, 3 de movime
 
 ## Transferência de ritmo
 Além de LOOK/MOVES, mapear first value, eventos, duração de shots/gestos e pausas, energia física/emocional/narrativa, frase musical e consequência. Comparar 3 trechos equivalentes; não confundir amostras de screenshots com ritmo medido. Ver [pacing-timing-editing.md](pacing-timing-editing.md). Use animatic para transferir gramática de edição, não apenas estética.
+
+## LOOK, MOVES e SPACE
+Para launch premium estudar também [direção espacial](spatial-motion-direction.md): styleframes, lente e câmera, materiais, luz, oclusão, volume, parallax, transformação, continuidade e coreografia. Comparar um mecanismo renderizado próprio com trechos reais; não atribuir 3D ou timing a referência por thumbnail. Verificar stack ativa antes de decidir motor.

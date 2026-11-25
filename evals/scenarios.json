@@ -118,6 +118,46 @@
         "análise e evidências",
         "nenhuma edição"
       ]
+    },
+    {
+      "id": "dayform-spatial-regression",
+      "prompt": "Launch premium com screenshots redimensionadas, sombras fake, zoom e fades, pacing rápido",
+      "expect": [
+        "reprovar slideshow",
+        "usar gate espacial independente",
+        "escolher motor por shot",
+        "styleframes blocking motion test",
+        "não chamar zoom de câmera 3D"
+      ]
+    },
+    {
+      "id": "3d-backend-unavailable",
+      "prompt": "Launch 3D solicitado mas Blender e WebGL falham",
+      "expect": [
+        "testar alternativa da mesma classe",
+        "não degradar silenciosamente",
+        "rotular rascunho se sem motor capaz",
+        "sem instalação ou gasto não autorizado"
+      ]
+    },
+    {
+      "id": "intentional-2d",
+      "prompt": "Filme vetorial expressivo com morphing e coreografia de alto nível",
+      "expect": [
+        "não impor 3D decorativo",
+        "julgar linguagem e craft",
+        "validar pacing e legibilidade"
+      ]
+    },
+    {
+      "id": "engine-selection",
+      "prompt": "Escolha stack para filme de lançamento com CGI e UI real",
+      "expect": [
+        "Blender/bpy ou motor 3D disponível",
+        "HyperFrames/Remotion/GSAP para UI e composição",
+        "FFmpeg infraestrutura",
+        "preflight e prova real"
+      ]
     }
   ]
 }

@@ -36,3 +36,9 @@ Os vídeos de terceiros e links privados do Drive não fazem parte do repositór
 - [Post-mortem Dayform](docs/dayform-pacing-postmortem.md): regressão editorial, evidências e causa raiz.
 - [Template de auditoria temporal](templates/pacing-review.md).
 - Analisador de baixa atividade (diagnóstico, não julgamento de ritmo): instale NumPy no ambiente isolado e FFmpeg local; `python scripts/analyze-pacing.py video.mp4 --timeline timeline.json --out qa/pacing.json`. Rode `python tests/test_pacing.py`. Testes unitários usam frames sintéticos; não representam teste de audiência ou validação artística. O workflow inclui essas regressões; verificar execução CI.
+
+## Atualização — motion cinematográfico e stack curada (25/11/2026)
+- [Stack ativa e roteador](references/motion-stack.md): Blender+bpy como rota 3D local, C4D/Redshift, Houdini/Karma, Unreal e AE/Fusion condicionais; HyperFrames/Remotion/GSAP para UI/híbrido. Ferramentas auxiliares não substituem motor artístico.
+- [Direção espacial e animação](references/spatial-motion-direction.md): styleframes, blocking, câmera, geometria, materiais, curvas, transformações, composição e gate espacial.
+- [Auditoria tecnológica](docs/motion-technology-audit.md) e [Dayform V3 post-mortem](docs/dayform-motion-postmortem.md): capacidades documentadas, limitações e decisões; sem alegar benchmarks ou instalação.
+- [Shot plan](templates/motion-shot-plan.md): contrato de produção por shot. Não há vídeo novo neste commit.
