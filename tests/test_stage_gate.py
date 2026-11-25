@@ -1,4 +1,4 @@
-import copy, importlib.util, json, tempfile, unittest
+import copy, importlib.util, json, subprocess, tempfile, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location("stage",ROOT/"scripts/stage-gate.py")
@@ -40,4 +40,31 @@ class StageTests(unittest.TestCase):
         self.m["stages"]["G0"]["review_mode"]="fake_agents";self.assertError("G0: reviewer/mode missing")
     def test_path_escape(self):
         self.m["stages"]["G0"]["checks"]["capacity"]["evidence"]["path"]="../missing";self.assertError("capacity: missing/empty/outside")
+    def test_cross_binding(self):
+        a=self.m["stages"]
+        release={"artifacts":{k:a[g]["checks"][c]["evidence"] for g,c,k in (
+            ("G3","animatic_a","animatic_a"),("G3","animatic_b","animatic_b"),
+            ("G3","canonical_timeline","timeline"),("G4","hero_test","shot_test"))}}
+        self.assertEqual(stage.release_bindings(self.m,release),[])
+        release=copy.deepcopy(release);release["artifacts"]["timeline"]["sha256"]="0"*64
+        self.assertIn("G3/canonical_timeline: differs from release timeline",stage.release_bindings(self.m,release))
+    def test_seal_does_not_approve(self):
+        s=self.m["stages"]["G0"];s["decision"]="pending";s["checks"]["capacity"]["decision"]="pending"
+        s["checks"]["capacity"]["evidence"]["sha256"]=""
+        stage.seal(self.job,self.m,"G0")
+        self.assertEqual(s["decision"],"pending")
+        self.assertEqual(s["checks"]["capacity"]["decision"],"pending")
+        self.assertError("G0: stage not passed",through="G0")
+    def test_real_media_fixture(self):
+        sources=["testsrc","testsrc2","smptebars","rgbtestsrc","color","yuvtestsrc"]
+        i=0
+        for name,keys in stage.STAGES.items():
+            for key in keys:
+                if key not in stage.VIDEO: continue
+                p=self.job/(key+".mp4")
+                subprocess.run(["ffmpeg","-nostdin","-v","error","-f","lavfi","-i",sources[i]+"=size=160x90:rate=10","-f","lavfi","-i","sine=frequency="+str(440+i*30)+":sample_rate=48000","-t","2","-c:v","libx264","-threads","1","-pix_fmt","yuv420p","-c:a","aac",str(p)],check=True)
+                i+=1
+                self.m["stages"][name]["checks"][key]["evidence"]={"path":p.name,"sha256":stage.digest(p)}
+            stage.seal(self.job,self.m,name)
+        self.assertEqual(self.errors(probe=True),[])
 if __name__=="__main__":unittest.main()

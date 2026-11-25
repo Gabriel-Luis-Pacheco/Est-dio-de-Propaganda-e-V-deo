@@ -63,3 +63,5 @@ Os vídeos de terceiros e links privados do Drive não fazem parte do repositór
 ## Trava de pré-produção (segunda regressão AbacatePay)
 - [Protocolo G0–G5](references/creative-preproduction-lock.md), [18 regressões](docs/abacatepay-v2-regression.md), [12 drills](references/motion-craft-drills.md).
 - `python scripts/stage-gate.py JOB --through G0` e repetir até G4 antes de render completo; G5 após draft. [Manifesto](templates/stage-manifest.json), SHA256 de evidências, predecessor e master. Release CLI exige histórico G0–G5. `python tests/test_stage_gate.py` testa estrutura; fixture sintética não valida arte. Não há novo vídeo ou benchmark artístico nesta mudança.
+
+Preencher caminhos/reviews reais e usar `--seal` para computar hashes, sem aprovação automática. A/B animatics, timeline e hero são cruzados com o manifesto de release; arquivos diferentes bloqueiam release.

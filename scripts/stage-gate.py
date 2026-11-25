@@ -76,10 +76,45 @@ def evaluate(job, manifest, through="G5", master_sha=None, probe=True):
             draft=checks.get("draft_playback",{})
             if not isinstance(draft,dict) or not isinstance(draft.get("evidence"),dict) or draft["evidence"].get("sha256")!=s.get("master_sha256"): errors.append("G5: playback not bound to master")
     return errors
+def release_bindings(stages, release):
+    """Prevent a release from pointing at different animatics, hero, or timeline."""
+    errors=[]
+    mapping=(("G3","animatic_a","animatic_a"),("G3","animatic_b","animatic_b"),
+             ("G3","canonical_timeline","timeline"),("G4","hero_test","shot_test"))
+    for name,key,artifact in mapping:
+        try:
+            a=stages["stages"][name]["checks"][key]["evidence"]["sha256"]
+            b=release["artifacts"][artifact]["sha256"]
+            if not nonblank(a) or a!=b: raise ValueError("hash mismatch")
+        except (KeyError,TypeError,ValueError): errors.append(name+"/"+key+": differs from release "+artifact)
+    return errors
+
+def seal(job, manifest, name):
+    """Populate hashes from existing evidence. Never changes a decision or a review."""
+    s=manifest["stages"][name]; keys=list(STAGES); i=keys.index(name)
+    s["previous_sha256"]=stage_digest(manifest["stages"][keys[i-1]]) if i else ""
+    def fill(item):
+        p=(job/item["path"]).resolve()
+        if not p.is_relative_to(job.resolve()) or not p.is_file() or not p.stat().st_size: raise ValueError("missing/empty/outside job: "+str(p))
+        item["sha256"]=digest(p)
+    for key in STAGES[name]: fill(s["checks"][key]["evidence"])
+    for issue in s["issues"]:
+        if issue.get("status")=="resolved" and issue.get("retest"): fill(issue["retest"])
+    if name=="G5": s["master_sha256"]=s["checks"]["draft_playback"]["evidence"]["sha256"]
+    return manifest
+
 def main():
-    p=argparse.ArgumentParser(description=__doc__); p.add_argument("job",type=Path); p.add_argument("--through",choices=STAGES,required=True); p.add_argument("--manifest",default="qa/stage-manifest.json"); p.add_argument("--master-sha")
+    p=argparse.ArgumentParser(description=__doc__); p.add_argument("job",type=Path); p.add_argument("--through",choices=STAGES,required=True); p.add_argument("--manifest",default="qa/stage-manifest.json"); p.add_argument("--master-sha"); p.add_argument("--seal",action="store_true",help="populate hashes for this stage only; does not approve it")
     a=p.parse_args()
-    try: errors=evaluate(a.job.resolve(),json.loads((a.job/a.manifest).read_text()),a.through,a.master_sha)
+    try:
+        job=a.job.resolve(); path=(job/a.manifest).resolve()
+        if not path.is_relative_to(job): raise ValueError("manifest outside job")
+        manifest=json.loads(path.read_text())
+        if a.seal:
+            seal(job,manifest,a.through)
+            tmp=path.with_suffix(path.suffix+".tmp")
+            tmp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n"); tmp.replace(path)
+        errors=evaluate(job,manifest,a.through,a.master_sha)
     except Exception as e: errors=["invalid/missing stage manifest: "+str(e)]
     print(json.dumps({"status":"STAGE_BLOCKED" if errors else "STAGE_EVIDENCE_PASSED","through":a.through,"artistic_quality_certified":False,"errors":errors},ensure_ascii=False,indent=2))
     return int(bool(errors))

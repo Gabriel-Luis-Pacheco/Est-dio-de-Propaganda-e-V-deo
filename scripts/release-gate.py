@@ -170,6 +170,7 @@ def main():
         try:
             stages=json.loads((job/"qa/stage-manifest.json").read_text())
             errors.extend(stage.evaluate(job,stages,"G5",manifest.get("master",{}).get("sha256")))
+            errors.extend(stage.release_bindings(stages,manifest))
         except Exception as e: errors.append("stage history missing/invalid: "+str(e))
     except Exception as e: errors=["invalid/missing manifest: "+str(e)]
     print(json.dumps({"status":"EVIDENCE_GATE_BLOCKED" if errors else "EVIDENCE_GATE_PASSED",
