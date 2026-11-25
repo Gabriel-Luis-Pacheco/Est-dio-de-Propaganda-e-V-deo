@@ -98,99 +98,183 @@
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "art_direction": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "typography": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "brand": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "copy": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "storytelling": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "motion": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "pacing": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "continuity": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "camera": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "material": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "compositing": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "sound_design": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "music": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "sync": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       },
       "commercial_clarity": {
         "score": null,
         "timestamp": "",
         "comparison": "",
-        "reason": ""
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
       }
     },
-    "issues": []
+    "issues": [],
+    "signed_review": {
+      "path": "",
+      "sha256": ""
+    },
+    "playback_record": {
+      "path": "",
+      "sha256": ""
+    },
+    "audio_audition_record": {
+      "path": "",
+      "sha256": ""
+    },
+    "hero_review_record": {
+      "path": "",
+      "sha256": ""
+    },
+    "blind_comparison_record": {
+      "path": "",
+      "sha256": ""
+    }
   }
 }
