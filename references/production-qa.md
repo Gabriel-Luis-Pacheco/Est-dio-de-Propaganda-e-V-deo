@@ -18,3 +18,6 @@ Social base 1080x1920, 30fps, H.264/yuv420p, AAC 48kHz e Rec.709 conforme fonte.
  
 ## Medição e eficiência
 Teste 3 hooks e manter oferta/corpo constantes. Registrar UTMs, placement, público, período, denominador, custo e hipótese. Separar métricas de alcance, intenção e prática/compra. Cachear referências/sheets, avaliar poucas cenas por vez, render barato antes de final, evitar múltiplos motores e agentes desnecessários. Sem métricas reais, entregar plano de medição. Sem publicação automática.
+
+## Ferramentas testadas e gates automatizados
+Antes do build: `python scripts/validate-timeline.py timeline.json`. Beats narrativos cobrem toda a duração sem lacunas ou sobreposição; faixas audiovisuais secundárias podem sobrepor. Para biblioteca local: `python scripts/analyze-library.py <pasta> --out <qa> --expect <n> --samples 12`. Manifest indica frames extraídos, não revisados. Para draft e final: `python scripts/inspect-video.py <mp4> --out <qa> --beat <s>`; abrir todas as sheets e inspecionar pontos suspeitos. A segunda prova de marca encontrou colisão entre texto e órbita e corrigiu por layout, timing e re-renderização. Transformação deve ser visualmente causal e leitura final precisa manter espaço próprio. Nunca aprovar uma peça comercial apenas por passar no script.

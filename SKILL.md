@@ -23,6 +23,11 @@ Pedido atual e limites do dono > produto público efetivamente testado > identid
 | Muitas versões / idiomas | estratégia + stack; timeline e textos parametrizados, Remotion ou HyperFrames |
 | Só ideia, texto ou roteiro | entregar isso, sem renderizar desnecessariamente |
 
+## Ferramentas locais verificadas
+- Para uma biblioteca MP4, execute `python scripts/analyze-library.py <pasta> --out <qa> --expect 25 --samples 12` (ajuste a quantidade real). Abra as sheets e documente mecanismos; extração não é revisão.
+- Antes de construir, execute `python scripts/validate-timeline.py timeline.json`. Os beats narrativos são contíguos; camadas, áudio e captions podem se sobrepor. O validador não mede gosto ou verdade.
+- Após render, execute `python scripts/inspect-video.py <mp4> --out <qa> --beat <s>` e abra as evidências. Em falhas de qualidade, corrija e rerenderize.
+
 ## Conhecimento já observado
 Antes de criar, use [reference-lab.md](references/reference-lab.md): análise visual de 25 MP4 reais com 300 quadros e fichas por timestamp; selecione mecanismos conforme a missão. Leia [upstream-audit.md](references/upstream-audit.md) para regras concretas das skills oficiais. O relatório [validação](docs/validation-2026-11-25.md) distingue sucesso técnico de qualidade comercial. Nunca declarar a prova de motion aprovada só por renderizar.
 

@@ -45,3 +45,6 @@ A primeira escolha para um anúncio curto de conversação é 12 (transformaçã
  
 ## Limites
 As 25 fichas são leitura visual por amostragem; não representam revisão de todos os quadros nativos nem audição. Extrações densas são evidência adicional, não cálculo de easing. Em trabalho real medir trecho de 0,2–2s quadro a quadro, testar transferência e comparar. Nenhum claim de campanha é validado pelo sucesso de uma peça de outro produto.
+
+## Automação disponível
+Execute `python scripts/analyze-library.py <pasta> --out <qa> --expect 25 --samples 12` para reproduzir a amostragem; a execução com a biblioteca original retornou 25 arquivos, 300 frames, zero ausências. Para movimento específico, use `scripts/inspect-video.py` e densidade maior, depois revise visualmente. Nenhum arquivo de terceiro é redistribuído.

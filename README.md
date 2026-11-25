@@ -24,3 +24,9 @@ Se já instalou via clone, faça git pull; se houver mudanças locais, faça bac
 - evals/scenarios.json — cenários de regressão propostos.
 
 Os vídeos de terceiros e links privados do Drive não fazem parte do repositório público; use as cópias autorizadas localmente. Recomendações do guia recebido são insumos, não benchmarks executados. Nenhum vídeo é prometido como renderizado nesta mudança.
+
+## Ferramentas e testes locais
+- `scripts/analyze-library.py`: FFmpeg + Pillow, 25 MP4 e 300 frames extraídos sem falha no laboratório.
+- `scripts/validate-timeline.py`: valida estrutura da timeline; `python tests/test_timeline.py` cobre oito casos positivos/negativos.
+- `scripts/inspect-video.py`: quatro execuções verificadas em vídeos de referência e protótipos.
+- `.github/workflows/validate.yml`: regressões estruturais no push/PR; não substituem QA de render e arte.
