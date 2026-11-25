@@ -2,12 +2,15 @@
 ## Estrutura de job
 brief.md, evidence.md, refs/manifest.json, storyboard.md, timeline.json, assets/, src/, drafts/, qa/, final/. Timeline única com fps, dimensões, duração, seed, beats, áudio e legendas. Eventos com id, start, end, role, asset e texto quando pertinente. Validar tempos, continuidade e duração; não duplicar timing em arquivos diferentes. Sem relógio real ou aleatoriedade não semeada. Preferir render offline com fontes/ativos carregados.
  
+## Gate temporal (obrigatório)
+Leia [pacing-timing-editing.md](pacing-timing-editing.md) e use [pacing-review.md](../templates/pacing-review.md). Animatic antes do acabamento; análise de atividade por quadro no animatic/draft/final, inspeção linear e de janelas suspeitas, mapa de novidade, primeiro payoff, holds, timing em frames e frases sonoras. Nenhuma folha de frames, LUFS ou contador de pixels substitui a revisão editorial. Rubrica temporal separada 21/25, nenhum critério abaixo de 3, evidências e zero P0/P1; não avaliado impede alegar aprovação integral. Sem audição, som subjetivo pendente de revisão humana.
+
 ## Render e review-loop
 Draft 540x960 para 9:16, fps do final. FFmpeg/ffprobe com scripts/inspect-video.py, sheets 2 fps, beats +0,3s e cortes ±2 frames (ajustar ao fps); inspeção micro a fps nativo. Captura do site real, texto HTML/SVG/React por cima, nunca gerar texto em imagem. Testar leitura 360px, safe zones atuais por canal, thumbnail, sem som, com som, sincronia, foco, velocidade, crop, clipping, flicker, freeze, preto, colisão, tipografia e CTA. Verificar determinismo e comandos check/lint específicos do motor. Não confundir saída automática com aprovação visual.
  
 Crítica em duas passagens: leigo descreve o que entendeu sem roteiro; especialista compara com referência e objetivo. Registrar timestamp, severidade, causa, reparo, before/after e resultado. Se não há agentes, não inventar opiniões. Renderizar nova versão e revisar novamente. Priorizar causa, não maquiagem.
  
-P0 bloqueia: mentira, preço/CTA falso, dados pessoais, asset sem direitos, idioma errado, tela fake apresentada como real, vídeo inválido, áudio clipado. P1 bloqueia: visual genérico, ausência de prova em anúncio, narrativa incoerente, texto ilegível, ritmo morto, lip sync falso, legenda ruim, efeitos sem intenção, sinalização IA faltante quando necessária. Se não resolver, marcar rascunho não aprovado.
+P0 bloqueia: mentira, preço/CTA falso, dados pessoais, asset sem direitos, idioma errado, tela fake apresentada como real, vídeo inválido, áudio clipado. P1 bloqueia: visual genérico, ausência de prova em anúncio, narrativa incoerente, texto ilegível, ritmo morto, redundância narrativa, gesto artificialmente lento, hold não justificado, transição ociosa, aceleração ilegível, falta de animatic revisado, lip sync falso, legenda ruim, efeitos sem intenção, sinalização IA faltante quando necessária. Se não resolver, marcar rascunho não aprovado.
  
 Rubrica 0–5: verdade/estratégia, hook, narrativa/prova, direção/brand, motion/atuação, copy/localização, som/legendas, QA/entrega. Alvo 34/40, nenhum abaixo de 3 e zero P0/P1 aberto. Critério interno, não teste de usuário.
  

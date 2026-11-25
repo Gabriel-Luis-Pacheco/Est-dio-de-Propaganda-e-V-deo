@@ -30,3 +30,9 @@ Os vídeos de terceiros e links privados do Drive não fazem parte do repositór
 - `scripts/validate-timeline.py`: valida estrutura da timeline; `python tests/test_timeline.py` cobre oito casos positivos/negativos.
 - `scripts/inspect-video.py`: quatro execuções verificadas em vídeos de referência e protótipos.
 - `.github/workflows/validate.yml`: regressões estruturais no push/PR; não substituem QA de render e arte.
+
+## Atualização — direção temporal (25/11/2026)
+- [Pacing, timing, roteiro, montagem e som](references/pacing-timing-editing.md): animatic-first obrigatório e gate de qualidade temporal.
+- [Post-mortem Dayform](docs/dayform-pacing-postmortem.md): regressão editorial, evidências e causa raiz.
+- [Template de auditoria temporal](templates/pacing-review.md).
+- Analisador de baixa atividade (diagnóstico, não julgamento de ritmo): instale NumPy no ambiente isolado e FFmpeg local; `python scripts/analyze-pacing.py video.mp4 --timeline timeline.json --out qa/pacing.json`. Rode `python tests/test_pacing.py`. Testes unitários usam frames sintéticos; não representam teste de audiência ou validação artística. O workflow inclui essas regressões; verificar execução CI.

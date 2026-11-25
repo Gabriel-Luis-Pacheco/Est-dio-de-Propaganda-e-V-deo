@@ -12,6 +12,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python -m pip install numpy
+      - run: python tests/test_pacing.py
       - run: python tests/test_timeline.py
       - run: python scripts/validate-timeline.py templates/timeline.json
-      - run: python -m py_compile scripts/analyze-library.py scripts/inspect-video.py
+      - run: python -m py_compile scripts/analyze-library.py scripts/inspect-video.py scripts/analyze-pacing.py

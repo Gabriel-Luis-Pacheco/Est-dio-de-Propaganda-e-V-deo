@@ -23,3 +23,6 @@ Método Stewdio blank-page: 5 referências visuais de uma estética, 3 de movime
  
 ## Exemplo de hipótese comercial 20s
 0–2s: pergunta real do café e hook; 2–5s: hesitação; 5–10s: dica verificada e tentativa; 10–14s: resposta/resultado real; 14–17s: outra situação ou língua verificada; 17–20s: CTA. Ajustar duração e copy por audiência. Nenhum frame de interface inventada. Mostre valor antes de logo. Não gastar créditos sem aprovação.
+
+## Transferência de ritmo
+Além de LOOK/MOVES, mapear first value, eventos, duração de shots/gestos e pausas, energia física/emocional/narrativa, frase musical e consequência. Comparar 3 trechos equivalentes; não confundir amostras de screenshots com ritmo medido. Ver [pacing-timing-editing.md](pacing-timing-editing.md). Use animatic para transferir gramática de edição, não apenas estética.

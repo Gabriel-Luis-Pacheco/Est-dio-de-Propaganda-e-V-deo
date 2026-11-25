@@ -27,3 +27,11 @@ Fake UI, claims falsos, texto gerado em imagem, efeitos vazios, ativos sem direi
 Motor / versão / licença:
 Rascunho / sheets / correções / final:
 Hipótese / variantes / métricas:
+
+# PACING E ANIMATIC (obrigatório para vídeo)
+História causal / mudança emocional e informacional:
+Primeiro produto / primeira prova / payoff / CTA:
+3 referências temporais com timestamps e gestos comparáveis:
+Mapa de ritmo, pausas motivadas, frases sonoras e leitura:
+Animatic A/B / duração escolhida e razão:
+Preencher [pacing-review.md](pacing-review.md) antes de acabamento e repetir no final.

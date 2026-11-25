@@ -30,3 +30,6 @@ Duração é função do conceito e canal; testar 10–15s, 15–34s, 30–45s e
  
 ## Testes
 Registre campanha, hook, público, canal, idioma, prova, CTA, UTMs e hipótese. Métrica de negócio vale mais que view isolada. Em aquisição, acompanhar clique → primeira prática → cadastro → compra, com denominadores e janela. No orgânico, retenção inicial, envios por alcance, salvamentos; B2B, lead qualificado. Não declarar vencedor sem amostra adequada; não inventar resultados.
+
+## Roteiro audiovisual e economia narrativa
+Aplicar [pacing, timing e montagem](pacing-timing-editing.md). Roteiro não é sequência de headlines; escrever ações e consequências, antecipação, virada e resolução. Um benefício demonstrado cedo vale mais que uma interface apresentada cedo. Não repetir a mesma prova sem nova informação; testar retirada de beats e animatic A/B. Na aquisição, registrar tempo até primeira prova e payoff; no educativo preservar compreensão; no humor preservar reação e timing do punch. A duração deve ser defendida pelo conteúdo, não preenchida.

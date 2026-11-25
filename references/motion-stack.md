@@ -39,3 +39,6 @@ Instalação por projeto com npx skills add OWNER/REPO após conferir README/lic
  
 ## Gramática de movimento
 Heurísticas iniciais de claude-motion: entrada cubic-bezier(0.16,1,0.3,1), saída cubic-bezier(0.6,0,0.9,0.35), saída ~metade da entrada, stagger palavras ~90ms e itens ~200ms; um gesto elástico forte pode bastar. Ajustar por intenção e referência. Antecipação, arcos, follow-through, peso, staging, timing, squash/stretch quando adequado; continuidade de layout e foco. Usar câmera e transição para revelar informação, não enfeite. Som alinhado à ação e timeline; sem CSS time real/Math.random sem seed em render determinístico.
+
+## Motor não decide ritmo
+Qualquer motor segue [direção temporal](pacing-timing-editing.md). Timeline determinística com microtiming em frames, overlap e áudio guia desde animatic. Springs e easing são ferramentas, não receita de pacing. Aceleração, cortes e holds dependem de informação, emoção e leitura; não usar movimento decorativo para esconder tempo morto.

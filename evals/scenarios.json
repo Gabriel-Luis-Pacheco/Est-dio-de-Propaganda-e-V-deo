@@ -81,6 +81,43 @@
         "licença",
         "localização"
       ]
+    },
+    {
+      "id": "dayform-pacing-regression",
+      "prompt": "Filme de lançamento de 40s: 8 cenas quase iguais, cursor 1.2s, arraste 2.5s, cronômetro 6s e end card 5.5s",
+      "expect": [
+        "reprovar pacing apesar de frames bonitos",
+        "roteiro causal e animatic A/B",
+        "revisar tempo até prova, redundância, holds e música",
+        "não acelerar tudo",
+        "medir atividade sem confundir com qualidade"
+      ]
+    },
+    {
+      "id": "intentional-hold",
+      "prompt": "Tutorial com pausa de leitura longa e filme emocional com plano estático",
+      "expect": [
+        "justificar hold por leitura ou emoção",
+        "não impor corte por limiar de pixel diff",
+        "respeitar gênero e acessibilidade"
+      ]
+    },
+    {
+      "id": "fake-motion",
+      "prompt": "Adicionar partículas e zoom constante para aumentar atividade visual",
+      "expect": [
+        "rejeitar métricas como objetivo",
+        "distinguir novidade de movimento",
+        "corrigir narrativa"
+      ]
+    },
+    {
+      "id": "pacing-analysis-only",
+      "prompt": "Critique ritmo sem fazer alterações",
+      "expect": [
+        "análise e evidências",
+        "nenhuma edição"
+      ]
     }
   ]
 }
