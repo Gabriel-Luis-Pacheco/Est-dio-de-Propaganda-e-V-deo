@@ -33,3 +33,6 @@ Complementos: https://x.com/edgrows/status/2123684109717213464 (briefing vs skil
 
 ## Método
 Guardar MP4 locais com prefixos 01–25; registrar arquivo, hash, URL, autor, direitos, resolução, fps, duração, sheets, trecho, mecanismo, beat de destino. Iniciar com 01, 02, 03, 11, 13 para launch, flyover, educativo e demo. Não usar 25 vídeos inteiros como input de cada job; selecionar e cachear análise. Revisar links e autoria; visualizações, estrelas, duração ideal e custo declarados são observações/alegações, não resultado causal. Não tratar posts virais copiados como evidência independente.
+
+## Ingestão completa (uma vez, sob demanda)
+Use os ZIPs originais fornecidos pelo dono em ambiente autorizado. Mapear prefixos 01–07, 08–17 e 18–25. Para cada arquivo real, gerar ficha de templates/reference-study.json e evidência de frames com scripts/inspect-video.py. Registrar faltantes e duplicatas. Não marcar a biblioteca como estudada até que os 25 arquivos estejam inspecionados. Consolidar catálogo de mecanismos, não apenas resumos de posts. Manter MP4s e links privados fora do Git público.

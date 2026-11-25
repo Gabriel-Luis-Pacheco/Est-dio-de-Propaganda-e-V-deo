@@ -1,0 +1,50 @@
+{
+  "status": "template-unmeasured",
+  "source": {
+    "id": "",
+    "filename": "",
+    "url": "",
+    "author": "",
+    "rights": "unknown",
+    "sha256": ""
+  },
+  "technical": {
+    "duration": null,
+    "fps": null,
+    "width": null,
+    "height": null,
+    "audioLufs": null,
+    "bpm": null
+  },
+  "beats": [
+    {
+      "start": null,
+      "end": null,
+      "frameFiles": [],
+      "role": "hook|mechanism|turn|exit",
+      "before": "",
+      "after": "",
+      "motion": {
+        "trajectory": "",
+        "scale": "",
+        "rotation": "",
+        "timing": "",
+        "easingEstimate": "",
+        "overlap": ""
+      },
+      "camera": "",
+      "text": "",
+      "audio": "",
+      "evidenceLevel": "observed|estimated|hypothesis",
+      "transfer": {
+        "principle": "",
+        "destinationBeat": "",
+        "adaptation": "",
+        "test": ""
+      }
+    }
+  ],
+  "limitations": [],
+  "reviewedBy": "",
+  "date": ""
+}
