@@ -47,3 +47,9 @@ Os vídeos de terceiros e links privados do Drive não fazem parte do repositór
 - [Direção de propaganda](references/advertising-taste.md): gates de conceito, styleframes, montagem, coreografia, timing, surpresa e contraste.
 - [Direção sonora](references/sound-direction.md), [32 candidatos CC0](assets/audio/README.md), [manifesto](assets/audio/manifest.json) e [cue sheet](templates/sound-cue-sheet.md).
 - [Análise computacional de áudio das 25 referências](docs/reference-audio-audit.md): energia por trecho; não equivale a audição, BPM ou qualidade.
+
+## Creative Studio OS — nova base prática
+- [Motion Arsenal](arsenal/motion/README.md): 24 estudos SVG próprios, galeria animada, código, export de frames, 124 shot cards upstream indexados.
+- [Audio Studio](arsenal/audio/README.md): 2357 candidatos Foley indexados; 32 assets locais prévios. Não foram ouvidos nesta rodada.
+- [Arsenal visual](arsenal/visual/README.md), [diretor criativo](references/creative-director.md), [orquestração](references/studio-orchestration.md).
+- [12 briefs de benchmark](evals/creative-benchmark/README.md), [status e limites](docs/creative-os-status.md).

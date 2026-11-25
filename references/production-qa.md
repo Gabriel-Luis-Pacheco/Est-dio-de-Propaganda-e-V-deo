@@ -30,3 +30,6 @@ Antes do build: `python scripts/validate-timeline.py timeline.json`. Beats narra
 
 ## Gate de taste e áudio
 Aplicar [advertising-taste.md](advertising-taste.md) e [sound-direction.md](sound-direction.md), preencher [sound cue sheet](../templates/sound-cue-sheet.md). Os gates adicionais não substituem temporal/espacial. Comparar com três referências equivalentes, revisar animatic com e sem áudio e separar stems. P1: sons genéricos, loops indiferentes à história, impactos fora de contato, ausência de contraste narrativo, sobreposição de voz/música, aparência de template. Sem audição não declarar som aprovado.
+
+## Repertório e comparação real
+Selecione mecanismos pelo arsenal e faça teste de movimento antes do filme. Registre comparação de alternativas de arte e edição; não aprovar estudos isolados como comerciais. Benchmark cego em evals/creative-benchmark, separado de testes estruturais. Atualize docs/creative-os-status.md apenas com evidência real.

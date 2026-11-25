@@ -1,0 +1,113 @@
+{
+  "status": "not_run",
+  "cases": [
+    {
+      "id": "ai-launch",
+      "subject": "Fictional AI model",
+      "duration": "25s",
+      "format": "16:9",
+      "goal": "A specific abstract capability conveyed through physical transformation; no invented performance claims",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "automotive",
+      "subject": "Car",
+      "duration": "20s",
+      "format": "16:9",
+      "goal": "Real volume, material, camera and motion; no fake specs",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "perfume",
+      "subject": "Perfume",
+      "duration": "15s",
+      "format": "9:16",
+      "goal": "Material and light, sensory metaphor, no generic particles",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "app-launch",
+      "subject": "Fictional productivity app",
+      "duration": "20s",
+      "format": "16:9",
+      "goal": "Action to consequence, legible UI, no screenshot slideshow",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "sneaker",
+      "subject": "Sneaker",
+      "duration": "15s",
+      "format": "9:16",
+      "goal": "Kinetic pacing, material and physical weight",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "luxury",
+      "subject": "Luxury object",
+      "duration": "15s",
+      "format": "16:9",
+      "goal": "Restraint, texture, intentional hold, sonic detail",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "batatalk",
+      "subject": "BataTalk",
+      "duration": "20s",
+      "format": "9:16",
+      "goal": "Current product proof, true offer, clear CTA",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "character",
+      "subject": "Original character",
+      "duration": "15s",
+      "format": "9:16",
+      "goal": "Acting, expression, timing, natural voice when needed",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "abstract",
+      "subject": "Motion abstract",
+      "duration": "12s",
+      "format": "16:9",
+      "goal": "One memorable causal transformation",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "education",
+      "subject": "Educational",
+      "duration": "25s",
+      "format": "9:16",
+      "goal": "Accurate explanation and reading time",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "trailer",
+      "subject": "Fictional trailer",
+      "duration": "30s",
+      "format": "16:9",
+      "goal": "Escalation, contrast, audio integration",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    },
+    {
+      "id": "brand",
+      "subject": "Fictional brand identity",
+      "duration": "12s",
+      "format": "1:1",
+      "goal": "Original coherent sonic/visual identity",
+      "condition": "same brief, assets, budget, engine and time; baseline vs skill; randomize labels",
+      "status": "not_run"
+    }
+  ]
+}

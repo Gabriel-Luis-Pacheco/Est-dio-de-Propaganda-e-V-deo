@@ -1,0 +1,1724 @@
+{
+  "upstream": "Vincentwei1021/video-shotcraft",
+  "revision": "1152363da5c824b32dba6d8a2ef7f935b677e445",
+  "source": "gallery/api/library.json",
+  "status": "indexed_not_reviewed",
+  "cards": [
+    {
+      "id": "assemble-then-type-flyin",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/assemble-then-type-flyin.md",
+      "previewVariants": [
+        {
+          "id": "assemble-then-type-flyin",
+          "mediaPath": "./media/assemble-then-type-flyin.mp4?v=1790980736765"
+        }
+      ],
+      "durationReported": "约5.6s（168f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "aurora-bloom-bg-flip",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/aurora-bloom-bg-flip.md",
+      "previewVariants": [
+        {
+          "id": "aurora-bloom-bg-flip",
+          "mediaPath": "./media/aurora-bloom-bg-flip.mp4?v=1790980736766"
+        }
+      ],
+      "durationReported": "约5.2s（156f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "autolayout-gap-dial",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/autolayout-gap-dial.md",
+      "previewVariants": [
+        {
+          "id": "autolayout-gap-dial",
+          "mediaPath": "./media/autolayout-gap-dial.mp4?v=1790980736767"
+        }
+      ],
+      "durationReported": "~5s（150f：框选入场 + 预备回收 10f + 拉松 34f + 屏息 hold 20f + 弹簧回弹 + 落定 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "avatar-bracket-carousel",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/avatar-bracket-carousel.md",
+      "previewVariants": [
+        {
+          "id": "avatar-bracket-carousel",
+          "mediaPath": "./media/avatar-bracket-carousel.mp4?v=1790980736768"
+        }
+      ],
+      "durationReported": "约 5.2s（156f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "basic-3d-scene",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/basic-3d-scene.md",
+      "previewVariants": [
+        {
+          "id": "basic-3d-scene",
+          "mediaPath": "./media/basic-3d-scene.mp4?v=1790980736769"
+        }
+      ],
+      "durationReported": "约 7.5s（225f@30fps；四站，三段飞行 28/32/32f，每站停留 ≥30f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "beat-cut-moves",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/beat-cut-moves.md",
+      "previewVariants": [
+        {
+          "id": "paparazzi-flash",
+          "mediaPath": "./media/paparazzi-flash.mp4?v=1790980736770"
+        }
+      ],
+      "durationReported": "全程 140f ≈4.7s（活素材 30f + 三闪 + hold 70f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "beat-step-list-theme-cycle",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/beat-step-list-theme-cycle.md",
+      "previewVariants": [
+        {
+          "id": "beat-step-list-theme-cycle",
+          "mediaPath": "./media/beat-step-list-theme-cycle.mp4?v=1790980736771"
+        }
+      ],
+      "durationReported": "铺垫 30f + 每拍 18f × 拍数 + 收尾 hold；4 拍约 4.7s（demo 140f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "before-after-slider-scrub",
+      "category": "data",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/data/before-after-slider-scrub.md",
+      "previewVariants": [
+        {
+          "id": "before-after-slider-scrub",
+          "mediaPath": "./media/before-after-slider-scrub.mp4?v=1790980736772"
+        }
+      ],
+      "durationReported": "4–5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "bezier-source-converge-merge",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/bezier-source-converge-merge.md",
+      "previewVariants": [
+        {
+          "id": "bezier-source-converge-merge",
+          "mediaPath": "./media/bezier-source-converge-merge.mp4?v=1790980736773"
+        }
+      ],
+      "durationReported": "约 5.6s（168f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "blur-slide",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/blur-slide.md",
+      "previewVariants": [
+        {
+          "id": "blur-slide",
+          "mediaPath": "./media/blur-slide.mp4?v=1790980736774"
+        }
+      ],
+      "durationReported": "约 4.0s（120f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "bottom-push-stack-wipe",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/bottom-push-stack-wipe.md",
+      "previewVariants": [
+        {
+          "id": "bottom-push-stack-wipe",
+          "mediaPath": "./media/bottom-push-stack-wipe.mp4?v=1790980736775"
+        }
+      ],
+      "durationReported": "demo 三连推 170f（~5.7s）；单次推入 26f + 章内 hold ~1.2s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "brace-expand",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/brace-expand.md",
+      "previewVariants": [
+        {
+          "id": "brace-expand",
+          "mediaPath": "./media/brace-expand.mp4?v=1790980736776"
+        }
+      ],
+      "durationReported": "约 4s（120f@30fps：光标 0–6f → 6f 小括号硬切 → 14f 弹开 → 40–64f 字距松弛 → 副标 → hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "brand-frame-snap",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/brand-frame-snap.md",
+      "previewVariants": [
+        {
+          "id": "brand-frame-snap",
+          "mediaPath": "./media/brand-frame-snap.mp4?v=1790980736777"
+        }
+      ],
+      "durationReported": "单次翻色 ~4.7s（140f）；画框本身可全片驻场",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "brand-ink-open",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/brand-ink-open.md",
+      "previewVariants": [
+        {
+          "id": "brand-ink-open",
+          "mediaPath": "./media/brand-ink-open.mp4?v=1790980736778"
+        }
+      ],
+      "durationReported": "约 2.8s（83f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "canvas-materialize-moves",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/canvas-materialize-moves.md",
+      "previewVariants": [
+        {
+          "id": "panel-to-canvas",
+          "mediaPath": "./media/panel-to-canvas.mp4?v=1790980736779"
+        },
+        {
+          "id": "diagram-cascade",
+          "mediaPath": "./media/diagram-cascade.mp4?v=1790980736780"
+        }
+      ],
+      "durationReported": "A ~5s（150f）/ B ~6s（180f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "card-flip-reveal",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/card-flip-reveal.md",
+      "previewVariants": [
+        {
+          "id": "card-flip-reveal",
+          "mediaPath": "./media/card-flip-reveal.mp4?v=1790980736781"
+        }
+      ],
+      "durationReported": "全程 150f（~5s，含 hold）；单卡 4f 预备 + 16f 翻 + ~10f 弹簧落定，三卡错峰 12f",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "card-flock-tumble",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/card-flock-tumble.md",
+      "previewVariants": [
+        {
+          "id": "card-flock-tumble",
+          "mediaPath": "./media/card-flock-tumble.mp4?v=1790980736782"
+        }
+      ],
+      "durationReported": "翻飞 ~1.5s + 慢转展示 ~0.3s + 收束 0.3s + 烟环+巨字 ~2s；全段 4.5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "card-stack",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/card-stack.md",
+      "previewVariants": [
+        {
+          "id": "card-stack",
+          "mediaPath": "./media/card-stack.mp4?v=1790980736783"
+        }
+      ],
+      "durationReported": "约 5.0s（150f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "carousel-3d",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/carousel-3d.md",
+      "previewVariants": [
+        {
+          "id": "carousel-3d",
+          "mediaPath": "./media/carousel-3d.mp4?v=1790980736784"
+        }
+      ],
+      "durationReported": "约 5.6s（168f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "chart-live-moves",
+      "category": "data",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/data/chart-live-moves.md",
+      "previewVariants": [
+        {
+          "id": "oscilloscope-stream",
+          "mediaPath": "./media/oscilloscope-stream.mp4?v=1790980736785"
+        },
+        {
+          "id": "unit-dot-swarm-regroup",
+          "mediaPath": "./media/unit-dot-swarm-regroup.mp4?v=1790980736786"
+        },
+        {
+          "id": "axis-rescale-shock",
+          "mediaPath": "./media/axis-rescale-shock.mp4?v=1790980736787"
+        }
+      ],
+      "durationReported": "各 165–192f（5.5–6.4s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "chip-grid-single-select-blackout",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/chip-grid-single-select-blackout.md",
+      "previewVariants": [
+        {
+          "id": "chip-grid-single-select-blackout",
+          "mediaPath": "./media/chip-grid-single-select-blackout.mp4?v=1790980736788"
+        }
+      ],
+      "durationReported": "约5.5s（165f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "circle-match-iris",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/circle-match-iris.md",
+      "previewVariants": [
+        {
+          "id": "circle-match-iris",
+          "mediaPath": "./media/circle-match-iris.mp4?v=1790980736789"
+        }
+      ],
+      "durationReported": "5.5s / 165f（入场+定睛 40f + 蓄力 7f + 接圆开圈 37f + sweep 58f + 静止 47f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "cloner-depth-echo",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/cloner-depth-echo.md",
+      "previewVariants": [
+        {
+          "id": "cloner-depth-echo",
+          "mediaPath": "./media/cloner-depth-echo.mp4?v=1790980736790"
+        }
+      ],
+      "durationReported": "138f（约 4.6s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "collab-cursor-moves",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/collab-cursor-moves.md",
+      "previewVariants": [
+        {
+          "id": "cast-ensemble",
+          "mediaPath": "./media/cast-ensemble.mp4?v=1790980736791"
+        }
+      ],
+      "durationReported": "A ~5.2s（156f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "countdown-arc-scatter",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/countdown-arc-scatter.md",
+      "previewVariants": [
+        {
+          "id": "countdown-arc-scatter",
+          "mediaPath": "./media/countdown-arc-scatter.mp4?v=1790980736792"
+        }
+      ],
+      "durationReported": "约 3.3s（100f@30fps：扫动 ~30f + 落位 20f + 标题成句 + hold 22f；最短可压到 33f 单拍）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "crane-rise-reveal",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/crane-rise-reveal.md",
+      "previewVariants": [
+        {
+          "id": "crane-rise-reveal",
+          "mediaPath": "./media/crane-rise-reveal.mp4?v=1790980736793"
+        }
+      ],
+      "durationReported": "5.5s（165f：特写 hold 24f + 拉升 102f + 落定/余波/静止 39f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "crash-zoom-punch",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/crash-zoom-punch.md",
+      "previewVariants": [
+        {
+          "id": "crash-zoom-punch",
+          "mediaPath": "./media/crash-zoom-punch.mp4?v=1790980736794"
+        }
+      ],
+      "durationReported": "约 0.5s 动作 + 前后 hold（动作 6–11f，前 hold ≥30f 建立全景、后 hold ≥45f 读特写）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "cursor-flyover",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/cursor-flyover.md",
+      "previewVariants": [
+        {
+          "id": "cursor-flyover",
+          "mediaPath": "./media/cursor-flyover.mp4?v=1790980736795"
+        }
+      ],
+      "durationReported": "约 8.0s（240f@30fps；俯瞰 22f · 四站各 44f（飞行 20f + 停留 24f）· 拉回 24f · hold 18f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "dataviz-landscape-open",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/dataviz-landscape-open.md",
+      "previewVariants": [
+        {
+          "id": "dataviz-landscape-open",
+          "mediaPath": "./media/dataviz-landscape-open.mp4?v=1790980736796"
+        }
+      ],
+      "durationReported": "5–8s（开场氛围段，一支片 ≤1 次；demo 180f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "deck-deal-flyin",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/deck-deal-flyin.md",
+      "previewVariants": [
+        {
+          "id": "deck-deal-flyin",
+          "mediaPath": "./media/deck-deal-flyin.mp4?v=1790980736797"
+        }
+      ],
+      "durationReported": "150f（约 5s：0–36 牌堆特写 + 预备，36–~101 发牌，108–150 满板 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "depth-layer-moves",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/depth-layer-moves.md",
+      "previewVariants": [
+        {
+          "id": "multiplane",
+          "mediaPath": "./media/multiplane.mp4?v=1790980736798"
+        }
+      ],
+      "durationReported": "4–5.5s 持续（demo 165f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "doc-park-left-pill-deal",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/doc-park-left-pill-deal.md",
+      "previewVariants": [
+        {
+          "id": "doc-park-left-pill-deal",
+          "mediaPath": "./media/doc-park-left-pill-deal.mp4?v=1790980736799"
+        }
+      ],
+      "durationReported": "约 5.8s（174f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "document-typewriter-reveal",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/document-typewriter-reveal.md",
+      "previewVariants": [
+        {
+          "id": "document-typewriter-reveal",
+          "mediaPath": "./media/document-typewriter-reveal.mp4?v=1790980736800"
+        }
+      ],
+      "durationReported": "150f（约 5s，含 history-list-stack 尾段与标语 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "draw-svg-trace",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/draw-svg-trace.md",
+      "previewVariants": [
+        {
+          "id": "draw-svg-trace",
+          "mediaPath": "./media/draw-svg-trace.mp4?v=1790980736801"
+        }
+      ],
+      "durationReported": "132f（预告 10f + 描边 40f + 闪黑交棒 16f + 下划线 18f + hold 40f，约 4.4s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "element-body-moves",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/element-body-moves.md",
+      "previewVariants": [
+        {
+          "id": "contact-shadow-lift",
+          "mediaPath": "./media/contact-shadow-lift.mp4?v=1790980736802"
+        }
+      ],
+      "durationReported": "A 150f 5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "flying-words",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/flying-words.md",
+      "previewVariants": [
+        {
+          "id": "flying-words",
+          "mediaPath": "./media/flying-words.mp4?v=1790980736803"
+        }
+      ],
+      "durationReported": "约 6.0s（180f@30fps，2 个完整循环，可无缝接续）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "fracture",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/fracture.md",
+      "previewVariants": [
+        {
+          "id": "fracture",
+          "mediaPath": "./media/fracture.mp4?v=1790980736804"
+        }
+      ],
+      "durationReported": "约 5.2s（156f@30fps；聚合 0–2.6s · hold 1s · 飞散 1.5s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "fui-hud-moves",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/fui-hud-moves.md",
+      "previewVariants": [
+        {
+          "id": "reticle-lock-on",
+          "mediaPath": "./media/reticle-lock-on.mp4?v=1790980736805"
+        }
+      ],
+      "durationReported": "2–3s（demo 90f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "gauge-readout-moves",
+      "category": "data",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/data/gauge-readout-moves.md",
+      "previewVariants": [
+        {
+          "id": "needle-sweep-selftest",
+          "mediaPath": "./media/needle-sweep-selftest.mp4?v=1790980736806"
+        },
+        {
+          "id": "tape-scroll-fixed-pointer",
+          "mediaPath": "./media/tape-scroll-fixed-pointer.mp4?v=1790980736807"
+        }
+      ],
+      "durationReported": "A 140f（4.7s）/ B 150f（5s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "glass-pill-dictation-typing",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/glass-pill-dictation-typing.md",
+      "previewVariants": [
+        {
+          "id": "glass-pill-dictation-typing",
+          "mediaPath": "./media/glass-pill-dictation-typing.mp4?v=1790980736808"
+        }
+      ],
+      "durationReported": "约3.3s（100f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "glitch-cycle",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/glitch-cycle.md",
+      "previewVariants": [
+        {
+          "id": "glitch-cycle",
+          "mediaPath": "./media/glitch-cycle.mp4?v=1790980736809"
+        }
+      ],
+      "durationReported": "约 5.6s（168f@30fps；demo 每条短语 38f，末条延续到片尾作收尾 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "glow-flyline-moves",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/glow-flyline-moves.md",
+      "previewVariants": [
+        {
+          "id": "glow-orb-ambient",
+          "mediaPath": "./media/glow-orb-ambient.mp4?v=1790980736810"
+        },
+        {
+          "id": "flyline-arc",
+          "mediaPath": "./media/flyline-arc.mp4?v=1790980736811"
+        },
+        {
+          "id": "orb-flyline-relay",
+          "mediaPath": "./media/orb-flyline-relay.mp4?v=1790980736812"
+        }
+      ],
+      "durationReported": "A 170f（~5.7s）/ B 140f（~4.7s）/ C 165f（5.5s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "gradient-transition",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/gradient-transition.md",
+      "previewVariants": [
+        {
+          "id": "gradient-transition",
+          "mediaPath": "./media/gradient-transition.mp4?v=1790980736813"
+        }
+      ],
+      "durationReported": "约 6.7s（200f@30fps；linear 0–2.3s · radial 1.9–4.4s · conic 3.9–6.7s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "gradient-word-sweep",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/gradient-word-sweep.md",
+      "previewVariants": [
+        {
+          "id": "gradient-word-sweep",
+          "mediaPath": "./media/gradient-word-sweep.mp4?v=1790980736814"
+        }
+      ],
+      "durationReported": "扫充 ~15–20f（要快）+ 稳态闪电呼吸 1–2s；全段 2.5–3.5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "grain-dissolve",
+      "category": "outro",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/outro/grain-dissolve.md",
+      "previewVariants": [
+        {
+          "id": "grain-dissolve",
+          "mediaPath": "./media/grain-dissolve.mp4?v=1790980736815"
+        }
+      ],
+      "durationReported": "约 2.0s（60f@30fps；砂化 0.26–0.56s · 凝聚 1.2–1.42s · 凝固回落收尾）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "graze-face-tour",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/graze-face-tour.md",
+      "previewVariants": [
+        {
+          "id": "graze-face-tour",
+          "mediaPath": "./media/graze-face-tour.mp4?v=1790980736816"
+        }
+      ],
+      "durationReported": "单段 4–5s；可多段接力延长",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "hashtag-to-pill-materialize",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/hashtag-to-pill-materialize.md",
+      "previewVariants": [
+        {
+          "id": "hashtag-to-pill-materialize",
+          "mediaPath": "./media/hashtag-to-pill-materialize.mp4?v=1790980736817"
+        }
+      ],
+      "durationReported": "120f（4s）——打字 ~40f + 硬切胶囊 hold ~18f + 缩移 ~14f + 硬切揭示后静置 ~1.2s（原片 18–21.5s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "icon-field-colorize",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/icon-field-colorize.md",
+      "previewVariants": [
+        {
+          "id": "icon-field-colorize",
+          "mediaPath": "./media/icon-field-colorize.mp4?v=1790980736818"
+        }
+      ],
+      "durationReported": "浮现 ~45f 错峰 + 静置 ~10f + 翻色 12–45f + 终态静置；全段 3–6s（demo 170f：翻色走 30f 档 + 标题落版 + 终态 hold 1s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "icon-performance-moves",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/icon-performance-moves.md",
+      "previewVariants": [
+        {
+          "id": "attention-bounce",
+          "mediaPath": "./media/attention-bounce.mp4?v=1790980736819"
+        }
+      ],
+      "durationReported": "156f（5.2s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "impact-feedback",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/impact-feedback.md",
+      "previewVariants": [
+        {
+          "id": "hit-counter",
+          "mediaPath": "./media/hit-counter.mp4?v=1790980736820"
+        },
+        {
+          "id": "anime-impact",
+          "mediaPath": "./media/anime-impact.mp4?v=1790980736821"
+        }
+      ],
+      "durationReported": "n/a（元素级技法，寄生在落位动作上；各式占用帧数见参数表）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "integration-hub-map",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/integration-hub-map.md",
+      "previewVariants": [
+        {
+          "id": "integration-hub-map",
+          "mediaPath": "./media/integration-hub-map.mp4?v=1790980736822"
+        }
+      ],
+      "durationReported": "前摇 ~0.5s + 快翻 ~1.2s + 图标齐现 → 光管齐连两拍 ~0.7s + 输送呼吸 ≥1.5s；全段 4.5–5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "lead-word-zoom-assemble",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/lead-word-zoom-assemble.md",
+      "previewVariants": [
+        {
+          "id": "lead-word-zoom-assemble",
+          "mediaPath": "./media/lead-word-zoom-assemble.mp4?v=1790980736823"
+        }
+      ],
+      "durationReported": "约 2.8s（84f@30fps；组句 f36 完成、上移与副行 f32–46、静止 26f、末 12f crash）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "letterspace-materialize",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/letterspace-materialize.md",
+      "previewVariants": [
+        {
+          "id": "letterspace-materialize",
+          "mediaPath": "./media/letterspace-materialize.mp4?v=1790980736824"
+        }
+      ],
+      "durationReported": "静置 ~15f + 描画 ~50f + 终态静置 ≥30f；全段 3–4s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "light-play-moves",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/light-play-moves.md",
+      "previewVariants": [
+        {
+          "id": "spotlight-sweep",
+          "mediaPath": "./media/spotlight-sweep.mp4?v=1790980736825"
+        },
+        {
+          "id": "sheen-sweep",
+          "mediaPath": "./media/sheen-sweep.mp4?v=1790980736826"
+        }
+      ],
+      "durationReported": "A 170f ~5.7s / B 150f ~5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "line-carry-transition",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/line-carry-transition.md",
+      "previewVariants": [
+        {
+          "id": "line-carry-transition",
+          "mediaPath": "./media/line-carry-transition.mp4?v=1790980736827"
+        }
+      ],
+      "durationReported": "~6.3s / 190f（进度条走满 36f + 冲出 10f + 横移 56f + 收框 24f + 框内海报 30f + 静止 24f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "list-reveal",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/list-reveal.md",
+      "previewVariants": [
+        {
+          "id": "list-reveal",
+          "mediaPath": "./media/list-reveal.mp4?v=1790980736828"
+        }
+      ],
+      "durationReported": "约 4s（120f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "list-stack-press",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/list-stack-press.md",
+      "previewVariants": [
+        {
+          "id": "list-stack-press",
+          "mediaPath": "./media/list-stack-press.mp4?v=1790980736829"
+        }
+      ],
+      "durationReported": "约 3s（18–88f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "logo-shrink-wordmark-lockup",
+      "category": "outro",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/outro/logo-shrink-wordmark-lockup.md",
+      "previewVariants": [
+        {
+          "id": "logo-shrink-wordmark-lockup",
+          "mediaPath": "./media/logo-shrink-wordmark-lockup.mp4?v=1790980736830"
+        }
+      ],
+      "durationReported": "约 4.4s（132f@30fps；收束 0.1–1.2s · 让位 1.5–2.1s · 字母 2–2.7s · 标语 3.2–3.7s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "magician-card-flourish",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/magician-card-flourish.md",
+      "previewVariants": [
+        {
+          "id": "magician-card-flourish",
+          "mediaPath": "./media/magician-card-flourish.mp4?v=1790980736831"
+        }
+      ],
+      "durationReported": "156f（闪光 0.3s + 飞行 1.6s + 定格/扫光/文案揭示 + hold 3.3s；全段 5.2s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "marker-underline-title",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/marker-underline-title.md",
+      "previewVariants": [
+        {
+          "id": "marker-underline-title",
+          "mediaPath": "./media/marker-underline-title.mp4?v=1790980736832"
+        }
+      ],
+      "durationReported": "标题落定 +4~8f 后起笔，划线 8–12f，总 1–1.5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "mosaic-reframe",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/mosaic-reframe.md",
+      "previewVariants": [
+        {
+          "id": "mosaic-reframe",
+          "mediaPath": "./media/mosaic-reframe.mp4?v=1790980736833"
+        }
+      ],
+      "durationReported": "约 7.1s（214f@30fps；浮现 0–22f · hold A · A→B 56–92f · hold B · B→C 132–176f · hold C 至 214f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "neon-frame-forerun",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/neon-frame-forerun.md",
+      "previewVariants": [
+        {
+          "id": "neon-frame-forerun",
+          "mediaPath": "./media/neon-frame-forerun.mp4?v=1790980736834"
+        }
+      ],
+      "durationReported": "框奔画 ~0.7s + 点亮&贴落 ~2.7s + 背景熄灭收束 ~1s；全段 4–4.7s（demo 140f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "neon-frame-orbit-drop",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/neon-frame-orbit-drop.md",
+      "previewVariants": [
+        {
+          "id": "neon-frame-orbit-drop",
+          "mediaPath": "./media/neon-frame-orbit-drop.mp4?v=1790980736835"
+        }
+      ],
+      "durationReported": "描框 ~0.5s + 旋转&同时贴落 ~2.5s + 落定 ~1s；全段 ~4.7s（140f，旋转到 128f 收住后留落定）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "neon-triple-marquee",
+      "category": "outro",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/outro/neon-triple-marquee.md",
+      "previewVariants": [
+        {
+          "id": "neon-triple-marquee",
+          "mediaPath": "./media/neon-triple-marquee.mp4?v=1790980736836"
+        }
+      ],
+      "durationReported": "4–5s（demo 150f：18f 逐行点火上电 + 循环体 + 18f 逐行断电 + 8f 熄灯 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "orbit-ring-title-open",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/orbit-ring-title-open.md",
+      "previewVariants": [
+        {
+          "id": "orbit-ring-title-open",
+          "mediaPath": "./media/orbit-ring-title-open.mp4?v=1790980736837"
+        }
+      ],
+      "durationReported": "150f（5s@30fps；马克块 f64 落定后 2.9s 稳态巡回 + 极缓推近；开 HANDOFF_EXIT 时 f118 起退场交棒）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "outline-word-fill",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/outline-word-fill.md",
+      "previewVariants": [
+        {
+          "id": "outline-word-fill",
+          "mediaPath": "./media/outline-word-fill.mp4?v=1790980736838"
+        }
+      ],
+      "durationReported": "约 3.0s（90f@30fps，短促单拍 + 36f 落定）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "outro-group-photo-launch",
+      "category": "outro",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/outro/outro-group-photo-launch.md",
+      "previewVariants": [
+        {
+          "id": "outro-group-photo-launch",
+          "mediaPath": "./media/outro-group-photo-launch.mp4?v=1790980736839"
+        }
+      ],
+      "durationReported": "约 4.8s（145f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "overhead-camera-moves",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/overhead-camera-moves.md",
+      "previewVariants": [
+        {
+          "id": "tilt-reveal",
+          "mediaPath": "./media/tilt-reveal.mp4?v=1790980736840"
+        },
+        {
+          "id": "overhead-tabletop-drop",
+          "mediaPath": "./media/overhead-tabletop-drop.mp4?v=1790980736841"
+        }
+      ],
+      "durationReported": "A 120f（4s）/ B 140f（4.7s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "page-turn-transitions",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/page-turn-transitions.md",
+      "previewVariants": [
+        {
+          "id": "barn-door-split",
+          "mediaPath": "./media/barn-door-split.mp4?v=1790980736842"
+        }
+      ],
+      "durationReported": "单式 150f（前态建立 30–40f + 转场 24–40f + 跟随与收尾 ≥70f），约 5.0s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "page-waterfall-wall",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/page-waterfall-wall.md",
+      "previewVariants": [
+        {
+          "id": "page-waterfall-wall",
+          "mediaPath": "./media/page-waterfall-wall.mp4?v=1790980736843"
+        }
+      ],
+      "durationReported": "4–6s（无限循环体，时长由段落需要裁）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "panel-grid-moves",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/panel-grid-moves.md",
+      "previewVariants": [
+        {
+          "id": "comic-panel-split",
+          "mediaPath": "./media/comic-panel-split.mp4?v=1790980736844"
+        }
+      ],
+      "durationReported": "156f ≈5.2s（全屏侧拍 20f + 三刀分格定格 + 吃屏 + 海报 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "paper-title-card",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/paper-title-card.md",
+      "previewVariants": [
+        {
+          "id": "paper-title-card",
+          "mediaPath": "./media/paper-title-card.mp4?v=1790980736845"
+        }
+      ],
+      "durationReported": "1.7–1.8s（50–55f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "picker-carousel-feature-cycle",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/picker-carousel-feature-cycle.md",
+      "previewVariants": [
+        {
+          "id": "picker-carousel-feature-cycle",
+          "mediaPath": "./media/picker-carousel-feature-cycle.mp4?v=1790980736846"
+        }
+      ],
+      "durationReported": "约3.6s（108f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "pill-chip-slot-cycle-handled",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/pill-chip-slot-cycle-handled.md",
+      "previewVariants": [
+        {
+          "id": "pill-chip-slot-cycle-handled",
+          "mediaPath": "./media/pill-chip-slot-cycle-handled.mp4?v=1790980736847"
+        }
+      ],
+      "durationReported": "约 5.0s（150f@30fps：静置 → 3 次切换（0.25/0.47/0.69）→ 尾部静置）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "pill-slot-cycle",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/pill-slot-cycle.md",
+      "previewVariants": [
+        {
+          "id": "pill-slot-cycle",
+          "mediaPath": "./media/pill-slot-cycle.mp4?v=1790980736848"
+        }
+      ],
+      "durationReported": "入场 12f + 每拍 21f × 词数 + 收束 14f + hold；6 词约 6.7s（demo 200f，含 48f 完整句 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "print-texture-transitions",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/print-texture-transitions.md",
+      "previewVariants": [
+        {
+          "id": "ink-bleed-reveal",
+          "mediaPath": "./media/ink-bleed-reveal.mp4?v=1790980736849"
+        }
+      ],
+      "durationReported": "4–4.5s（洇开段 55–80f + 静止收尾 ≥30f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "product-card-progressive-assemble",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/product-card-progressive-assemble.md",
+      "previewVariants": [
+        {
+          "id": "product-card-progressive-assemble",
+          "mediaPath": "./media/product-card-progressive-assemble.mp4?v=1790980736850"
+        }
+      ],
+      "durationReported": "约 5.7s（172f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "quad-split-parallel-scenes",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/quad-split-parallel-scenes.md",
+      "previewVariants": [
+        {
+          "id": "quad-split-parallel-scenes",
+          "mediaPath": "./media/quad-split-parallel-scenes.mp4?v=1790980736851"
+        }
+      ],
+      "durationReported": "90f（3s@30fps：0–62f 并行轰炸 + 28f 终态 hold，全程无转场）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "radial-ripple-phone-chips",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/radial-ripple-phone-chips.md",
+      "previewVariants": [
+        {
+          "id": "radial-ripple-phone-chips",
+          "mediaPath": "./media/radial-ripple-phone-chips.mp4?v=1790980736852"
+        }
+      ],
+      "durationReported": "约5.6s（168f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "radial-wave",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/radial-wave.md",
+      "previewVariants": [
+        {
+          "id": "radial-wave",
+          "mediaPath": "./media/radial-wave.mp4?v=1790980736853"
+        }
+      ],
+      "durationReported": "约 3.8s（114f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "research-card-stack-scroll",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/research-card-stack-scroll.md",
+      "previewVariants": [
+        {
+          "id": "research-card-stack-scroll",
+          "mediaPath": "./media/research-card-stack-scroll.mp4?v=1790980736854"
+        }
+      ],
+      "durationReported": "约 4.8s（144f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "rhythm-interrupt-moves",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/rhythm-interrupt-moves.md",
+      "previewVariants": [
+        {
+          "id": "jump-cut-punch-in",
+          "mediaPath": "./media/jump-cut-punch-in.mp4?v=1790980736855"
+        }
+      ],
+      "durationReported": "A 135f ≈4.5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "riso-print-hits",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/riso-print-hits.md",
+      "previewVariants": [
+        {
+          "id": "misregistration-hit",
+          "mediaPath": "./media/misregistration-hit.mp4?v=1790980736856"
+        }
+      ],
+      "durationReported": "4s（120f，单发）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "row-embed",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/row-embed.md",
+      "previewVariants": [
+        {
+          "id": "row-embed",
+          "mediaPath": "./media/row-embed.mp4?v=1790980736857"
+        }
+      ],
+      "durationReported": "约 2s（12–68f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "sakuga-timing-shift",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/sakuga-timing-shift.md",
+      "previewVariants": [
+        {
+          "id": "sakuga-timing-shift",
+          "mediaPath": "./media/sakuga-timing-shift.mp4?v=1790980736858"
+        }
+      ],
+      "durationReported": "150f（5s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "scan-bracket-sweep",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/scan-bracket-sweep.md",
+      "previewVariants": [
+        {
+          "id": "scan-bracket-sweep",
+          "mediaPath": "./media/scan-bracket-sweep.mp4?v=1790980736859"
+        }
+      ],
+      "durationReported": "约5.0s（150f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "scanline-annotate-focus",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/scanline-annotate-focus.md",
+      "previewVariants": [
+        {
+          "id": "scanline-annotate-focus",
+          "mediaPath": "./media/scanline-annotate-focus.mp4?v=1790980736860"
+        }
+      ],
+      "durationReported": "约5s（150f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "scanline-assemble-flyin",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/scanline-assemble-flyin.md",
+      "previewVariants": [
+        {
+          "id": "scanline-assemble-flyin",
+          "mediaPath": "./media/scanline-assemble-flyin.mp4?v=1790980736861"
+        }
+      ],
+      "durationReported": "约5.2s（156f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "scroll-brake-moves",
+      "category": "data",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/data/scroll-brake-moves.md",
+      "previewVariants": [
+        {
+          "id": "changelog-scroll-brake",
+          "mediaPath": "./media/changelog-scroll-brake.mp4?v=1790980736862"
+        },
+        {
+          "id": "brake-reticle-lock",
+          "mediaPath": "./media/brake-reticle-lock.mp4?v=1790980736863"
+        }
+      ],
+      "durationReported": "A 4–5s / B 5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "segmented-thumb-hero",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/segmented-thumb-hero.md",
+      "previewVariants": [
+        {
+          "id": "segmented-thumb-hero",
+          "mediaPath": "./media/segmented-thumb-hero.mp4?v=1790980736864"
+        }
+      ],
+      "durationReported": "~3.5s（demo 110f：浮入 18f + 光标 24f + 点击 + 滑动 8f + 图标弹出 + hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "shot-transitions",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/shot-transitions.md",
+      "previewVariants": [
+        {
+          "id": "flash-cut",
+          "mediaPath": "./media/flash-cut.mp4?v=1784437314733"
+        },
+        {
+          "id": "whip-pan",
+          "mediaPath": "./media/whip-pan.mp4?v=1790980736865"
+        },
+        {
+          "id": "mask-wipe",
+          "mediaPath": "./media/mask-wipe.mp4?v=1790980736866"
+        }
+      ],
+      "durationReported": "n/a（技法卡；各式占用帧数见参数表，从相邻镜头预算里划）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "slam-entrance-moves",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/slam-entrance-moves.md",
+      "previewVariants": [
+        {
+          "id": "kanada-perspective-snap",
+          "mediaPath": "./media/kanada-perspective-snap.mp4?v=1790980736867"
+        },
+        {
+          "id": "score-slam",
+          "mediaPath": "./media/score-slam.mp4?v=1790980736868"
+        },
+        {
+          "id": "impact-burst-kit",
+          "mediaPath": "./media/impact-burst-kit.mp4?v=1790980736869"
+        }
+      ],
+      "durationReported": "单式动作段 6–22f + 冲击余波 ~16f + hold ≥45f（demo：A 120f / B 135f / C 140f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "space-camera-moves",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/space-camera-moves.md",
+      "previewVariants": [
+        {
+          "id": "exploded-view",
+          "mediaPath": "./media/exploded-view.mp4?v=1790980736870"
+        },
+        {
+          "id": "drone-dive-landing",
+          "mediaPath": "./media/drone-dive-landing.mp4?v=1790980736871"
+        }
+      ],
+      "durationReported": "A 170f（5.7s，炸开-悬停-合体-收尾标题全程）；C 105f（3.5s，俯冲 69f + 落定 hold 36f）单向俯冲",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "speed-ramp-freeze",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/speed-ramp-freeze.md",
+      "previewVariants": [
+        {
+          "id": "freeze-annotate",
+          "mediaPath": "./media/freeze-annotate.mp4?v=1790980736872"
+        }
+      ],
+      "durationReported": "定格标注全程 158f（≈5.3s，定格段 67f ≥45f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "spotlight-hero-card",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/spotlight-hero-card.md",
+      "previewVariants": [
+        {
+          "id": "spotlight-hero-card",
+          "mediaPath": "./media/spotlight-hero-card.mp4?v=1790980736873"
+        }
+      ],
+      "durationReported": "172f（约 5.7s；锁定 f34 → 触地 f142 → 30f 真静止 hold）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "spotlight-sweep-moves",
+      "category": "effects",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/effects/spotlight-sweep-moves.md",
+      "previewVariants": [
+        {
+          "id": "glow-wake-sleep-panel",
+          "mediaPath": "./media/glow-wake-sleep-panel.mp4?v=1790980736874"
+        },
+        {
+          "id": "slide-spotlight-pan",
+          "mediaPath": "./media/slide-spotlight-pan.mp4?v=1790980736875"
+        },
+        {
+          "id": "corner-spotlight-reveal",
+          "mediaPath": "./media/corner-spotlight-reveal.mp4?v=1790980736876"
+        }
+      ],
+      "durationReported": "单式 3.5–4.5s；A/B 可串联成巡礼段",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "steep-tilt-glide",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/steep-tilt-glide.md",
+      "previewVariants": [
+        {
+          "id": "steep-tilt-glide",
+          "mediaPath": "./media/steep-tilt-glide.mp4?v=1790980736877"
+        }
+      ],
+      "durationReported": "4s（120f）单镜；页面越宽越可拉长",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "stroke-segment-build",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/stroke-segment-build.md",
+      "previewVariants": [
+        {
+          "id": "stroke-segment-build",
+          "mediaPath": "./media/stroke-segment-build.mp4?v=1790980736878"
+        }
+      ],
+      "durationReported": "165f（5.5s；揭晓 f105 后 hold 2s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "tear-streak-transitions",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/tear-streak-transitions.md",
+      "previewVariants": [
+        {
+          "id": "glitch-displace",
+          "mediaPath": "./media/glitch-displace.mp4?v=1790980736879"
+        }
+      ],
+      "durationReported": "前态 ≥40f + 撕裂 16–24f + 收尾 ≥40f，约 4.5s（135f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "tension-camera-moves",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/tension-camera-moves.md",
+      "previewVariants": [
+        {
+          "id": "bullet-time-freeze-orbit",
+          "mediaPath": "./media/bullet-time-freeze-orbit.mp4?v=1790980736880"
+        },
+        {
+          "id": "pull-back-isolation",
+          "mediaPath": "./media/pull-back-isolation.mp4?v=1790980736881"
+        }
+      ],
+      "durationReported": "单式 5–6s（150–170f）；全片合计 ≤2 式（各 ≤1 次）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "terminal-3d",
+      "category": "camera",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/camera/terminal-3d.md",
+      "previewVariants": [
+        {
+          "id": "terminal-3d",
+          "mediaPath": "./media/terminal-3d.mp4?v=1790980736882"
+        }
+      ],
+      "durationReported": "约 8.2s（246f@30fps；三站各约 2–3s 停留 + 两段 30f 飞行）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "text-as-mask",
+      "category": "opening",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/opening/text-as-mask.md",
+      "previewVariants": [
+        {
+          "id": "text-as-mask",
+          "mediaPath": "./media/text-as-mask.mp4?v=1790980736883"
+        }
+      ],
+      "durationReported": "165f（入场 18f + 字内漂移 78f + 吸气 8f + 冲入接管 24f + 落定/hold 37f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "text-column-converge",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/text-column-converge.md",
+      "previewVariants": [
+        {
+          "id": "text-column-converge",
+          "mediaPath": "./media/text-column-converge.mp4?v=1790980736884"
+        }
+      ],
+      "durationReported": "轮换 7–16f/词 × 8–9 词 + 合拢 ~36f + 小字后静置；全段约 5–6s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "theme-switch-moves",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/theme-switch-moves.md",
+      "previewVariants": [
+        {
+          "id": "theme-sweep-toggle",
+          "mediaPath": "./media/theme-sweep-toggle.mp4?v=1790980736885"
+        },
+        {
+          "id": "palette-theme-ripple",
+          "mediaPath": "./media/palette-theme-ripple.mp4?v=1790980736886"
+        }
+      ],
+      "durationReported": "A 140f（4.7s）/ B 156f（5.2s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "timeline-travel",
+      "category": "data",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/data/timeline-travel.md",
+      "previewVariants": [
+        {
+          "id": "timeline-travel",
+          "mediaPath": "./media/timeline-travel.mp4?v=1790980736887"
+        }
+      ],
+      "durationReported": "4–5s",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "title-demote-to-label",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/title-demote-to-label.md",
+      "previewVariants": [
+        {
+          "id": "title-demote-to-label",
+          "mediaPath": "./media/title-demote-to-label.mp4?v=1790980736888"
+        }
+      ],
+      "durationReported": "A ~3.7s（112f）/ B ~4.5s（134f）；demo 两式串播 246f",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "trailer-grammar-moves",
+      "category": "rhythm",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/rhythm/trailer-grammar-moves.md",
+      "previewVariants": [
+        {
+          "id": "trailer-bumper",
+          "mediaPath": "./media/trailer-bumper.mp4?v=1790980736889"
+        }
+      ],
+      "durationReported": "A ~4.7s（140f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "transition-hidden-cut",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/transition-hidden-cut.md",
+      "previewVariants": [
+        {
+          "id": "invisible-cut",
+          "mediaPath": "./media/invisible-cut.mp4?v=1790980736890"
+        },
+        {
+          "id": "versus-slam",
+          "mediaPath": "./media/versus-slam.mp4?v=1790980736891"
+        },
+        {
+          "id": "light-leak-burn",
+          "mediaPath": "./media/light-leak-burn.mp4?v=1790980736892"
+        }
+      ],
+      "durationReported": "n/a（技法卡；各式占用帧数见参数表，从相邻镜头预算里划）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "transition-travel",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/transition-travel.md",
+      "previewVariants": [
+        {
+          "id": "letterform-zoom",
+          "mediaPath": "./media/letterform-zoom.mp4?v=1790980736893"
+        }
+      ],
+      "durationReported": "n/a（技法卡；demo 150f，主推动作段 52f，前后 hold 另计，帧数从相邻镜头预算里划）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "type-and-filter",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/type-and-filter.md",
+      "previewVariants": [
+        {
+          "id": "type-and-filter",
+          "mediaPath": "./media/type-and-filter.mp4?v=1790980736894"
+        }
+      ],
+      "durationReported": "约 2.5s（118–190f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "type-assembly-moves",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/type-assembly-moves.md",
+      "previewVariants": [
+        {
+          "id": "split-text-stagger",
+          "mediaPath": "./media/split-text-stagger.mp4?v=1790980736895"
+        },
+        {
+          "id": "drift-assembly",
+          "mediaPath": "./media/drift-assembly.mp4?v=1790980736896"
+        },
+        {
+          "id": "text-on-path",
+          "mediaPath": "./media/text-on-path.mp4?v=1790980736897"
+        }
+      ],
+      "durationReported": "单式 4–5.5s（动作段 A ~56f / B ~104f / C ~110f；demo 全长含 hold：A 130f / B 150f / C 160f，各自导出 `*_DURATION`）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "type-entrance-moves",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/type-entrance-moves.md",
+      "previewVariants": [
+        {
+          "id": "letter-drop-physics",
+          "mediaPath": "./media/letter-drop-physics.mp4?v=1790980736898"
+        }
+      ],
+      "durationReported": "单式 5s（含 hold 与静止收尾；动作段 ~116f，demo 150f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "type-rhythm-sync",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/type-rhythm-sync.md",
+      "previewVariants": [
+        {
+          "id": "font-weight-pump",
+          "mediaPath": "./media/font-weight-pump.mp4?v=1790980736899"
+        },
+        {
+          "id": "karaoke-fill-sync",
+          "mediaPath": "./media/karaoke-fill-sync.mp4?v=1790980736900"
+        }
+      ],
+      "durationReported": "A FontWeightPump 165f / B KaraokeFillSync 150f；A 128 BPM 每拍 14f、衰减窗 9–13f，B 每词按语速 18–33f",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "typewriter-moves",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/typewriter-moves.md",
+      "previewVariants": [
+        {
+          "id": "error-retype",
+          "mediaPath": "./media/error-retype.mp4?v=1790980736901"
+        }
+      ],
+      "durationReported": "~5.3s（160f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "ui-strip-away-outro",
+      "category": "outro",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/outro/ui-strip-away-outro.md",
+      "previewVariants": [
+        {
+          "id": "ui-strip-away-outro",
+          "mediaPath": "./media/ui-strip-away-outro.mp4?v=1790980736902"
+        }
+      ],
+      "durationReported": "~4.8s（144f：光标就位 34f → 蒸发 ~40f → 按钮独占 → 字标接棒 → 字标 hold ≥1s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "ui-to-brand-morph",
+      "category": "outro",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/outro/ui-to-brand-morph.md",
+      "previewVariants": [
+        {
+          "id": "icon-flip-bloom",
+          "mediaPath": "./media/icon-flip-bloom.mp4?v=1790980736903"
+        },
+        {
+          "id": "input-morph-assemble",
+          "mediaPath": "./media/input-morph-assemble.mp4?v=1790980736904"
+        }
+      ],
+      "durationReported": "A ~4.3s（130f）/ B ~5.6s（168f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "value-stagger-gradient",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/value-stagger-gradient.md",
+      "previewVariants": [
+        {
+          "id": "value-stagger-gradient",
+          "mediaPath": "./media/value-stagger-gradient.mp4?v=1790980736905"
+        }
+      ],
+      "durationReported": "约 5.0s（150f@30fps）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "vertical-word-roll-blur-cycle",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/vertical-word-roll-blur-cycle.md",
+      "previewVariants": [
+        {
+          "id": "vertical-word-roll-blur-cycle",
+          "mediaPath": "./media/vertical-word-roll-blur-cycle.mp4?v=1790980736906"
+        }
+      ],
+      "durationReported": "约 5.0s（150f@30fps：静置 → 3 次换词 → 尾部整组淡出）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "voice-waveform-live",
+      "category": "interaction",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/interaction/voice-waveform-live.md",
+      "previewVariants": [
+        {
+          "id": "voice-waveform-live",
+          "mediaPath": "./media/voice-waveform-live.mp4?v=1790980736907"
+        }
+      ],
+      "durationReported": "172f（~5.7s：入场 14f + 说 1.4s + 停 0.8s + 说 1.4s + 提交塌缩 / 收进气泡 0.8s + hold 0.7s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "wall-reveal-moves",
+      "category": "ui-entrance",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/ui-entrance/wall-reveal-moves.md",
+      "previewVariants": [
+        {
+          "id": "bento-light-up",
+          "mediaPath": "./media/bento-light-up.mp4?v=1790980736908"
+        },
+        {
+          "id": "wireframe-draw-on",
+          "mediaPath": "./media/wireframe-draw-on.mp4?v=1790980736909"
+        }
+      ],
+      "durationReported": "单式约 5s（A 150f / B 150f @30fps，含建立 hold 与静止收尾）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "white-flash-logo-simplify-cut",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/white-flash-logo-simplify-cut.md",
+      "previewVariants": [
+        {
+          "id": "white-flash-logo-simplify-cut",
+          "mediaPath": "./media/white-flash-logo-simplify-cut.mp4?v=1790980736910"
+        }
+      ],
+      "durationReported": "约 4s（120f@30fps；演出 0–34f · 蓄力 34–46f · 冲白 44–54f · 曝光回落 54–76f · 锁定 72–96f · hold 至 120f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "wipe-transitions",
+      "category": "transition",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/transition/wipe-transitions.md",
+      "previewVariants": [
+        {
+          "id": "blinds-slice",
+          "mediaPath": "./media/blinds-slice.mp4?v=1790980736911"
+        }
+      ],
+      "durationReported": "前态 ≥20f + 擦除 ~56f + 收尾 ≥40f，约 4.4s（132f）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "word-relay-filmstrip",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/word-relay-filmstrip.md",
+      "previewVariants": [
+        {
+          "id": "word-relay-filmstrip",
+          "mediaPath": "./media/word-relay-filmstrip.mp4?v=1790980736912"
+        }
+      ],
+      "durationReported": "每词期 ~1.5–2s × 3–4 词；demo 180f（6s）",
+      "status": "indexed_not_individually_reviewed"
+    },
+    {
+      "id": "word-relay-geometry",
+      "category": "typography",
+      "source": "https://github.com/Vincentwei1021/video-shotcraft/blob/1152363da5c824b32dba6d8a2ef7f935b677e445/references/shots/typography/word-relay-geometry.md",
+      "previewVariants": [
+        {
+          "id": "word-relay-geometry",
+          "mediaPath": "./media/word-relay-geometry.mp4?v=1790980736913"
+        }
+      ],
+      "durationReported": "约 6.0s（180f@30fps：三段各 ≈60f，段间重叠 6f）",
+      "status": "indexed_not_individually_reviewed"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "radial-assemble",
+    "family": "assembly",
+    "purpose": "One unit becomes organized system",
+    "avoid": "Random confetti",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/radial-assemble.svg"
+  },
+  {
+    "id": "arc-handoff",
+    "family": "trajectory",
+    "purpose": "Visible cause and handoff",
+    "avoid": "Cursor travel without outcome",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/arc-handoff.svg"
+  },
+  {
+    "id": "mask-reveal",
+    "family": "transition",
+    "purpose": "Shape makes new information visible",
+    "avoid": "Mask with no payoff",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/mask-reveal.svg"
+  },
+  {
+    "id": "iris-match",
+    "family": "transition",
+    "purpose": "Use same circle as scene connector",
+    "avoid": "Generic wipes",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/iris-match.svg"
+  },
+  {
+    "id": "stagger-type",
+    "family": "type",
+    "purpose": "One line builds with readable order",
+    "avoid": "Every letter bouncing",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/stagger-type.svg"
+  },
+  {
+    "id": "split-word",
+    "family": "type",
+    "purpose": "Tension releases into alignment",
+    "avoid": "Typography that never settles",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/split-word.svg"
+  },
+  {
+    "id": "orbit-transfer",
+    "family": "spatial-2d",
+    "purpose": "Hierarchy through an orbital transfer",
+    "avoid": "Pointless spinning",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/orbit-transfer.svg"
+  },
+  {
+    "id": "stack-unfold",
+    "family": "layout",
+    "purpose": "Single stack expands into ordered units",
+    "avoid": "Card carousel as feature catalog",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/stack-unfold.svg"
+  },
+  {
+    "id": "elastic-contact",
+    "family": "physics-inspired",
+    "purpose": "Weight and recovery after contact",
+    "avoid": "Same spring for all assets",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/elastic-contact.svg"
+  },
+  {
+    "id": "pendulum-chain",
+    "family": "physics-inspired",
+    "purpose": "Delayed follow-through",
+    "avoid": "Endless swing with no narrative",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/pendulum-chain.svg"
+  },
+  {
+    "id": "ribbon-wave",
+    "family": "deformation",
+    "purpose": "Continuous shape conveys propagation",
+    "avoid": "Wave as meaningless wallpaper",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/ribbon-wave.svg"
+  },
+  {
+    "id": "shape-morph",
+    "family": "deformation",
+    "purpose": "Preserve identity while silhouette changes",
+    "avoid": "Unmatched topology",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/shape-morph.svg"
+  },
+  {
+    "id": "radial-progress",
+    "family": "data",
+    "purpose": "Make progression legible",
+    "avoid": "Fake numeric proof",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/radial-progress.svg"
+  },
+  {
+    "id": "bar-reorder",
+    "family": "data",
+    "purpose": "Reveal relational change",
+    "avoid": "Invented statistics",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/bar-reorder.svg"
+  },
+  {
+    "id": "cursor-cause",
+    "family": "interaction",
+    "purpose": "Input has visible consequence",
+    "avoid": "Long pointer approach",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/cursor-cause.svg"
+  },
+  {
+    "id": "shared-element",
+    "family": "interaction",
+    "purpose": "Same object moves into detail view",
+    "avoid": "Unrelated crossfade",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/shared-element.svg"
+  },
+  {
+    "id": "perspective-plane",
+    "family": "spatial-2d",
+    "purpose": "Suggest depth with projected planes, not real CGI",
+    "avoid": "Claiming 3D geometry",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/perspective-plane.svg"
+  },
+  {
+    "id": "occlusion-wipe",
+    "family": "transition",
+    "purpose": "Foreground object motivates cut",
+    "avoid": "Unmotivated screen flash",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/occlusion-wipe.svg"
+  },
+  {
+    "id": "tracking-grid",
+    "family": "layout",
+    "purpose": "Order emerges through coordinated movement",
+    "avoid": "Generic dashboard wallpaper",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/tracking-grid.svg"
+  },
+  {
+    "id": "aperture-turn",
+    "family": "transition",
+    "purpose": "Rotating shutters give causal reveal",
+    "avoid": "Decorative mechanical transition",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/aperture-turn.svg"
+  },
+  {
+    "id": "line-to-field",
+    "family": "assembly",
+    "purpose": "One mark becomes system",
+    "avoid": "Unmotivated particle proliferation",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/line-to-field.svg"
+  },
+  {
+    "id": "type-counterform",
+    "family": "type",
+    "purpose": "Type as a mask for moving image",
+    "avoid": "Unreadable lettering",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/type-counterform.svg"
+  },
+  {
+    "id": "reveal-by-scale",
+    "family": "camera-2d",
+    "purpose": "Change scale to reveal structure",
+    "avoid": "Zoom without new information",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/reveal-by-scale.svg"
+  },
+  {
+    "id": "reaction-ripple",
+    "family": "physics-inspired",
+    "purpose": "Impact propagates through neighbors",
+    "avoid": "Ripple on every click",
+    "status": "frame_logic_tested_not_art_approved",
+    "preview": "previews/reaction-ripple.svg"
+  }
+]

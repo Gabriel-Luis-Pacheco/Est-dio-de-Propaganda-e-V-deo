@@ -1,0 +1,218 @@
+{
+  "status": "discovery_catalog",
+  "studios": [
+    {
+      "studio": "Ordinary Folk",
+      "url": "https://www.ordinaryfolk.co/work",
+      "focus": "2D/3D, narrative and transitions",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "BUCK",
+      "url": "https://buck.co/work",
+      "focus": "brand and character",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "ManvsMachine",
+      "url": "https://mvsm.com/",
+      "focus": "CGI and product",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Giant Ant",
+      "url": "https://www.giantant.ca/work",
+      "focus": "narrative and acting",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Tendril",
+      "url": "https://tendril.ca/",
+      "focus": "experimental CGI",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "url": "https://futuredeluxe.com/work",
+      "focus": "material and launch films",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Territory Studio",
+      "url": "https://territorystudio.com/",
+      "focus": "screen graphics",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Elastic",
+      "url": "https://elastic.tv/",
+      "focus": "title design",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Builders Club",
+      "url": "https://builders-club.com/",
+      "focus": "CGI campaigns",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Bitmap",
+      "url": "https://www.bitmapstudio.com/work",
+      "focus": "software films",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Pentagram",
+      "url": "https://www.pentagram.com/work",
+      "focus": "identity",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Apple",
+      "url": "https://www.apple.com/",
+      "focus": "product storytelling",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Nike",
+      "url": "https://www.nike.com/",
+      "focus": "sport advertising",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Google",
+      "url": "https://www.google.com/",
+      "focus": "technology brand",
+      "status": "discovery_source_not_film_review"
+    },
+    {
+      "studio": "Linear",
+      "url": "https://linear.app/",
+      "focus": "software launch",
+      "status": "discovery_source_not_film_review"
+    }
+  ],
+  "casePages": [
+    {
+      "studio": "BUCK",
+      "title": "Nothing Playground",
+      "url": "https://buck.co/work/nothing-playground",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "BUCK",
+      "title": "BUCK Rebrand",
+      "url": "https://buck.co/work/buck-rebrand",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "BUCK",
+      "title": "Comfy Brand Refresh",
+      "url": "https://www.buck.co/work/comfy-brand-refresh",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "BUCK",
+      "title": "Osko",
+      "url": "https://buck.co/work/osko-launch",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "BUCK",
+      "title": "Apple Power to the Pro",
+      "url": "https://buck.co/work/apple-power-to-the-pro",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "BUCK",
+      "title": "A Tiffany Holiday",
+      "url": "https://www.buck.co/work/a-tiffany-holiday",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "BUCK",
+      "title": "Illumina",
+      "url": "https://buck.co/work/illumina",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "BUCK",
+      "title": "Headspace",
+      "url": "https://buck.co/work/headspace",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "AVATR Vision Xpectra",
+      "url": "https://futuredeluxe.com/work/avatr",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "Hublot Unico",
+      "url": "https://futuredeluxe.com/work/hublot-unico",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "Nike Mercurial",
+      "url": "https://futuredeluxe.com/work/nike-mercurial",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "Z by HP",
+      "url": "https://futuredeluxe.com/work/z-by-hp",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "Nike Magista",
+      "url": "https://futuredeluxe.com/work/nike-3",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "Samsung Galaxy S25 Edge",
+      "url": "https://futuredeluxe.com/work/samsung-galaxy-edge",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "Nvidia Maxwell",
+      "url": "https://futuredeluxe.com/work/nvidia-4",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "FutureDeluxe",
+      "title": "Bitis Hunter",
+      "url": "https://futuredeluxe.com/work/bitis",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "ManvsMachine",
+      "title": "MINI Editions",
+      "url": "https://mvsm.com/project/editions",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "Ordinary Folk",
+      "title": "Equilibrium",
+      "url": "https://www.ordinaryfolk.co/project/equilibrium",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "Ordinary Folk",
+      "title": "Introducing Spline",
+      "url": "https://www.ordinaryfolk.co/project/introducing-spline",
+      "status": "page_candidate_not_video_measured"
+    },
+    {
+      "studio": "Ordinary Folk",
+      "title": "Webflow Ecommerce",
+      "url": "https://www.ordinaryfolk.co/project/webflow-ecommerce",
+      "status": "page_candidate_not_video_measured"
+    }
+  ],
+  "existingMeasured": "references/reference-lab.md"
+}
