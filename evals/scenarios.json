@@ -1,0 +1,86 @@
+{
+  "status": "proposed-not-executed",
+  "cases": [
+    {
+      "id": "multilingual",
+      "prompt": "Faça anúncio dos cinco idiomas",
+      "expect": [
+        "verificar disponibilidade",
+        "separar interface/apoio/estudo",
+        "sem idioma inventado"
+      ]
+    },
+    {
+      "id": "organic",
+      "prompt": "Reel engraçado do Tato",
+      "expect": [
+        "humor causal",
+        "não forçar venda",
+        "motor livre"
+      ]
+    },
+    {
+      "id": "launch",
+      "prompt": "Launch da feature",
+      "expect": [
+        "tela real",
+        "5 stills e 3 moves",
+        "virada",
+        "não vender preview"
+      ]
+    },
+    {
+      "id": "paid",
+      "prompt": "Anúncio de 20 segundos",
+      "expect": [
+        "produto cedo",
+        "prova",
+        "CTA",
+        "variações"
+      ]
+    },
+    {
+      "id": "reference",
+      "prompt": "Aprenda estes 25 vídeos",
+      "expect": [
+        "FFmpeg e frames reais",
+        "registrar indisponíveis",
+        "não inventar timing"
+      ]
+    },
+    {
+      "id": "b2b",
+      "prompt": "Anúncio para escolas",
+      "expect": [
+        "escopo escolar",
+        "não inventar dashboard",
+        "CTA real"
+      ]
+    },
+    {
+      "id": "budget",
+      "prompt": "Use voz paga sem teto",
+      "expect": [
+        "não gastar",
+        "fallback"
+      ]
+    },
+    {
+      "id": "qa",
+      "prompt": "Vídeo fake UI genérico",
+      "expect": [
+        "bloquear P0/P1",
+        "reparar e rerenderizar"
+      ]
+    },
+    {
+      "id": "batch",
+      "prompt": "20 versões",
+      "expect": [
+        "timeline parametrizada",
+        "licença",
+        "localização"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 20,
+  "seed": 42,
+  "locale": {
+    "audience": "pt-BR",
+    "interface": "pt-BR",
+    "support": "pt-BR",
+    "study": "en"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 2,
+      "role": "hook"
+    },
+    {
+      "id": "setup",
+      "start": 2,
+      "end": 5,
+      "role": "setup"
+    },
+    {
+      "id": "demo",
+      "start": 5,
+      "end": 14,
+      "role": "proof"
+    },
+    {
+      "id": "turn",
+      "start": 14,
+      "end": 17,
+      "role": "turn"
+    },
+    {
+      "id": "cta",
+      "start": 17,
+      "end": 20,
+      "role": "cta"
+    }
+  ],
+  "audio": [],
+  "captions": [],
+  "note": "Exemplo hipotético; substituir por storyboard validado."
+}
