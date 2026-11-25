@@ -1,4 +1,6 @@
 # Produção, revisão e entrega
+
+**Precedência premium:** [protocolo de release](premium-release-protocol.md), checkpoints G0–G6 e `scripts/release-gate.py` são obrigatórios além das rubricas abaixo. As notas internas 21/25, 25/30 e 34/40 são diagnósticas; nunca substituem 16 dimensões >=4/5, revisão independente, verificação do master e zero P0/P1. Um render bloqueado é um draft rotulado, não release.
 ## Estrutura de job
 brief.md, evidence.md, refs/manifest.json, storyboard.md, timeline.json, assets/, src/, drafts/, qa/, final/. Timeline única com fps, dimensões, duração, seed, beats, áudio e legendas. Eventos com id, start, end, role, asset e texto quando pertinente. Validar tempos, continuidade e duração; não duplicar timing em arquivos diferentes. Sem relógio real ou aleatoriedade não semeada. Preferir render offline com fontes/ativos carregados.
  
@@ -26,6 +28,7 @@ Social base 1080x1920, 30fps, H.264/yuv420p, AAC 48kHz e Rec.709 conforme fonte.
 Teste 3 hooks e manter oferta/corpo constantes. Registrar UTMs, placement, público, período, denominador, custo e hipótese. Separar métricas de alcance, intenção e prática/compra. Cachear referências/sheets, avaliar poucas cenas por vez, render barato antes de final, evitar múltiplos motores e agentes desnecessários. Sem métricas reais, entregar plano de medição. Sem publicação automática.
 
 ## Ferramentas testadas e gates automatizados
+Para premium gere pacing com FPS da timeline, 320×180, threshold 8, fraction .01. Preencha review_windows com evidências e execute o release gate, que recalcula a medição diretamente do master. O número de pixels não mede gosto. Não use o default histórico .001 para esse gate.
 Antes do build: `python scripts/validate-timeline.py timeline.json`. Beats narrativos cobrem toda a duração sem lacunas ou sobreposição; faixas audiovisuais secundárias podem sobrepor. Para biblioteca local: `python scripts/analyze-library.py <pasta> --out <qa> --expect <n> --samples 12`. Manifest indica frames extraídos, não revisados. Para draft e final: `python scripts/inspect-video.py <mp4> --out <qa> --beat <s>`; abrir todas as sheets e inspecionar pontos suspeitos. A segunda prova de marca encontrou colisão entre texto e órbita e corrigiu por layout, timing e re-renderização. Transformação deve ser visualmente causal e leitura final precisa manter espaço próprio. Nunca aprovar uma peça comercial apenas por passar no script.
 
 ## Gate de taste e áudio
