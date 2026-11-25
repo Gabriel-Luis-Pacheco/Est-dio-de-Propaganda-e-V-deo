@@ -42,3 +42,8 @@ Os vídeos de terceiros e links privados do Drive não fazem parte do repositór
 - [Direção espacial e animação](references/spatial-motion-direction.md): styleframes, blocking, câmera, geometria, materiais, curvas, transformações, composição e gate espacial.
 - [Auditoria tecnológica](docs/motion-technology-audit.md) e [Dayform V3 post-mortem](docs/dayform-motion-postmortem.md): capacidades documentadas, limitações e decisões; sem alegar benchmarks ou instalação.
 - [Shot plan](templates/motion-shot-plan.md): contrato de produção por shot. Não há vídeo novo neste commit.
+
+## Atualização — taste, sound design e arsenal real
+- [Direção de propaganda](references/advertising-taste.md): gates de conceito, styleframes, montagem, coreografia, timing, surpresa e contraste.
+- [Direção sonora](references/sound-direction.md), [32 candidatos CC0](assets/audio/README.md), [manifesto](assets/audio/manifest.json) e [cue sheet](templates/sound-cue-sheet.md).
+- [Análise computacional de áudio das 25 referências](docs/reference-audio-audit.md): energia por trecho; não equivale a audição, BPM ou qualidade.

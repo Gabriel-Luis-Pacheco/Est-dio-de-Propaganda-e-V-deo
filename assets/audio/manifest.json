@@ -1,0 +1,284 @@
+[
+  {
+    "path": "assets/audio/cc0/ambience/fs-329533-room-tone-in-an-apartment-livi.ogg",
+    "git_blob_sha": "aa2f3a906e2f9de543ef72bfe7430b6573a2d126",
+    "category": "ambience",
+    "license": "CC0-1.0",
+    "provenance": "leonelmail via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/leonelmail/sounds/329533/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/ambience/fs-329533-room-tone-in-an-apartment-livi.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/ambience/fs-426767-apartment-room-tone-wav.ogg",
+    "git_blob_sha": "c10315fe079aa437954b02ecb9b8db85dfa80eff",
+    "category": "ambience",
+    "license": "CC0-1.0",
+    "provenance": "cMilan via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/cMilan/sounds/426767/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/ambience/fs-426767-apartment-room-tone-wav.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/click/fs788933.ogg",
+    "git_blob_sha": "38797c03a6f5195cd7a7a8df66dc35ddc92f48fb",
+    "category": "click",
+    "license": "CC0-1.0",
+    "provenance": "Mediasaur via Freesound (CC0; credit given voluntarily)  |  [source](https://freesound.org/people/Mediasaur/sounds/788933/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/click/fs788933.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/click/kenney-interface-click-001.ogg",
+    "git_blob_sha": "5047018dd1be84a6d1eece8cee2aa6eba38b3f9e",
+    "category": "click",
+    "license": "CC0-1.0",
+    "provenance": "Kenney (kenney.nl), CC0; credit optional  |  [source](https://kenney.nl/assets/interface-sounds)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/click/kenney-interface-click-001.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/click/kenney-interface-toggle-001.ogg",
+    "git_blob_sha": "cdfaa6a98897c5ea3d97a768106a86e64a0fe182",
+    "category": "click",
+    "license": "CC0-1.0",
+    "provenance": "Kenney (kenney.nl), CC0; credit optional  |  [source](https://kenney.nl/assets/interface-sounds)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/click/kenney-interface-toggle-001.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/ding/fs-349504-triangle-open-04.ogg",
+    "git_blob_sha": "4fd791a6c791a88d1dc39e9ed2727b3452317b1f",
+    "category": "ding",
+    "license": "CC0-1.0",
+    "provenance": "cabled_mess via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/cabled_mess/sounds/349504/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/ding/fs-349504-triangle-open-04.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/ding/fs-571513-soft-notifications-bell-ding-d.ogg",
+    "git_blob_sha": "8145c742bda84eb3ad7bfb2f4e4733bee182d243",
+    "category": "ding",
+    "license": "CC0-1.0",
+    "provenance": "LegitCheese via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/LegitCheese/sounds/571513/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/ding/fs-571513-soft-notifications-bell-ding-d.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/ding/kenney-interface-glass-001.ogg",
+    "git_blob_sha": "221f1643d900f60920c47199a5e87ce89f03ad4b",
+    "category": "ding",
+    "license": "CC0-1.0",
+    "provenance": "Kenney (kenney.nl), CC0; credit optional  |  [source](https://kenney.nl/assets/interface-sounds)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/ding/kenney-interface-glass-001.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/impact/fs524817.ogg",
+    "git_blob_sha": "90b421ca878afa2d561ff75dec187cfd69b76e3a",
+    "category": "impact",
+    "license": "CC0-1.0",
+    "provenance": "DeVern via Freesound (CC0; credit given voluntarily)  |  [source](https://freesound.org/people/DeVern/sounds/524817/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/impact/fs524817.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/impact/fs745291.ogg",
+    "git_blob_sha": "687e164f7c424a63f2e54cd20e43146f5a5d269d",
+    "category": "impact",
+    "license": "CC0-1.0",
+    "provenance": "SamsterBirdies via Freesound (CC0; credit given voluntarily)  |  [source](https://freesound.org/people/SamsterBirdies/sounds/745291/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/impact/fs745291.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/impact/kenney-impact-impactsoft-heavy-000.ogg",
+    "git_blob_sha": "352730fbfb688da86a5b68c5bf2e2384271207bc",
+    "category": "impact",
+    "license": "CC0-1.0",
+    "provenance": "Kenney (kenney.nl), CC0; credit optional  |  [source](https://kenney.nl/assets/impact-sounds)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/impact/kenney-impact-impactsoft-heavy-000.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/impact/kenney-impact-impactsoft-heavy-001.ogg",
+    "git_blob_sha": "ef3cf6e9c71491f80d8cf4b2c32366bcf59f463c",
+    "category": "impact",
+    "license": "CC0-1.0",
+    "provenance": "Kenney (kenney.nl), CC0; credit optional  |  [source](https://kenney.nl/assets/impact-sounds)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/impact/kenney-impact-impactsoft-heavy-001.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/pop/fs-258269-mouth-pop.ogg",
+    "git_blob_sha": "269f5784c0187e5221a8752cc2040fbb02e7a2cf",
+    "category": "pop",
+    "license": "CC0-1.0",
+    "provenance": "jcallison via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/jcallison/sounds/258269/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/pop/fs-258269-mouth-pop.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/pop/fs-447910-plop.ogg",
+    "git_blob_sha": "fda1ba261e7303e150915bd7ebb008448351e7ca",
+    "category": "pop",
+    "license": "CC0-1.0",
+    "provenance": "Breviceps via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/Breviceps/sounds/447910/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/pop/fs-447910-plop.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/pop/kenney-interface-pluck-002.ogg",
+    "git_blob_sha": "12bb6998898f5900bfe6fb20bc1953fd60635894",
+    "category": "pop",
+    "license": "CC0-1.0",
+    "provenance": "Kenney (kenney.nl), CC0; credit optional  |  [source](https://kenney.nl/assets/interface-sounds)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/pop/kenney-interface-pluck-002.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/riser/fs-685256-riser-sound-effect-short-wav.ogg",
+    "git_blob_sha": "53d4d4a3fe25798b0e8d38013a94c57533c139aa",
+    "category": "riser",
+    "license": "CC0-1.0",
+    "provenance": "syntheffects via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/syntheffects/sounds/685256/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/riser/fs-685256-riser-sound-effect-short-wav.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/riser/fs867126.ogg",
+    "git_blob_sha": "14abddd070637ff2997c678b065b29190651bb65",
+    "category": "riser",
+    "license": "CC0-1.0",
+    "provenance": "Diim_1 via Freesound (CC0; credit given voluntarily)  |  [source](https://freesound.org/people/Diim_1/sounds/867126/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/riser/fs867126.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/transition/fs-816262-broomstick-whoosh-3-quiet-okm1.ogg",
+    "git_blob_sha": "92c70996f99f1203cd06196f9d4c81cddaf93ae9",
+    "category": "transition",
+    "license": "CC0-1.0",
+    "provenance": "Sadiquecat via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/Sadiquecat/sounds/816262/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/transition/fs-816262-broomstick-whoosh-3-quiet-okm1.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/transition/fs-702773-swipe-wav.ogg",
+    "git_blob_sha": "a0630a23c3d7c92634296ce7db1c7425d44ef994",
+    "category": "transition",
+    "license": "CC0-1.0",
+    "provenance": "LilMati via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/LilMati/sounds/702773/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/transition/fs-702773-swipe-wav.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/transition/fs-786514-swoosh-v2.ogg",
+    "git_blob_sha": "9f2968328b60cd437a17dd5f36ff3959024fbb68",
+    "category": "transition",
+    "license": "CC0-1.0",
+    "provenance": "migoreng1 via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/migoreng1/sounds/786514/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/transition/fs-786514-swoosh-v2.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/typing/fs-323432-typing.ogg",
+    "git_blob_sha": "3a13e8855621d168b3f25f73fbce0a1af17f986e",
+    "category": "typing",
+    "license": "CC0-1.0",
+    "provenance": "Alivvie via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/Alivvie/sounds/323432/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/typing/fs-323432-typing.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/typing/fs-447909-keyboard-typing.ogg",
+    "git_blob_sha": "9c3e272b4a5fbde47c8510b33975c4e2b36d6adc",
+    "category": "typing",
+    "license": "CC0-1.0",
+    "provenance": "Breviceps via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/Breviceps/sounds/447909/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/typing/fs-447909-keyboard-typing.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/whoosh/fs-127197-fast-simple-chop-5-aif.ogg",
+    "git_blob_sha": "ca0049917ea3cae75aa5f1c66e4cc4d82925543f",
+    "category": "whoosh",
+    "license": "CC0-1.0",
+    "provenance": "dave.des via Freesound (CC0; credit optional)  |  [source](https://freesound.org/people/dave.des/sounds/127197/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/whoosh/fs-127197-fast-simple-chop-5-aif.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/whoosh/fs830856.ogg",
+    "git_blob_sha": "1fc764b7d3dfe0cb28894bbac8c908f2e85db6e5",
+    "category": "whoosh",
+    "license": "CC0-1.0",
+    "provenance": "MeanRaccoon via Freesound (CC0; credit given voluntarily)  |  [source](https://freesound.org/people/MeanRaccoon/sounds/830856/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/whoosh/fs830856.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/whoosh/fs810485.ogg",
+    "git_blob_sha": "7b2f01cc90200511ac3b345715adaf87edf29ee9",
+    "category": "whoosh",
+    "license": "CC0-1.0",
+    "provenance": "CVLTIV8R via Freesound (CC0; credit given voluntarily)  |  [source](https://freesound.org/people/CVLTIV8R/sounds/810485/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/whoosh/fs810485.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/tick/fs528561.ogg",
+    "git_blob_sha": "8fa1715c2100e87ebec95ac017badf18f0e198a1",
+    "category": "tick",
+    "license": "CC0-1.0",
+    "provenance": "Jummit via Freesound (CC0; credit given voluntarily)  |  [source](https://freesound.org/people/Jummit/sounds/528561/)",
+    "source": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/sfx/tick/fs528561.ogg",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/foley/breakdrop_woodbreak_03130.wav",
+    "git_blob_sha": "c1f006e03161d3cc9e2b8db9e9176b60a3ad7595",
+    "category": "foley",
+    "license": "CC0-1.0 (as documented by upstream dataset)",
+    "source": "https://github.com/stephenbrade/foleyset-oneshot-examples/blob/ebe1646db77362ca30c20a78cbc5c6f7b36fb9f9/examples/breakdrop_woodbreak_03130.wav",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/foley/click_mousebutton_03608.wav",
+    "git_blob_sha": "bfa4217f7a97b492f0c74c16302fe225e1efa7cd",
+    "category": "foley",
+    "license": "CC0-1.0 (as documented by upstream dataset)",
+    "source": "https://github.com/stephenbrade/foleyset-oneshot-examples/blob/ebe1646db77362ca30c20a78cbc5c6f7b36fb9f9/examples/click_mousebutton_03608.wav",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/foley/clothing_rubbing_02261.wav",
+    "git_blob_sha": "6bab12ae089e3d4e163be95687a6183d694b1226",
+    "category": "foley",
+    "license": "CC0-1.0 (as documented by upstream dataset)",
+    "source": "https://github.com/stephenbrade/foleyset-oneshot-examples/blob/ebe1646db77362ca30c20a78cbc5c6f7b36fb9f9/examples/clothing_rubbing_02261.wav",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/foley/footstep_singlestep_01409.wav",
+    "git_blob_sha": "9c3b2a61d2cd62ac09382c72266274196f7b8e7e",
+    "category": "foley",
+    "license": "CC0-1.0 (as documented by upstream dataset)",
+    "source": "https://github.com/stephenbrade/foleyset-oneshot-examples/blob/ebe1646db77362ca30c20a78cbc5c6f7b36fb9f9/examples/footstep_singlestep_01409.wav",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/foley/material_magazine_01454.wav",
+    "git_blob_sha": "8aef01064ce9195ab8652082894c2aa98d3e20a3",
+    "category": "foley",
+    "license": "CC0-1.0 (as documented by upstream dataset)",
+    "source": "https://github.com/stephenbrade/foleyset-oneshot-examples/blob/ebe1646db77362ca30c20a78cbc5c6f7b36fb9f9/examples/material_magazine_01454.wav",
+    "status": "candidate_unheard"
+  },
+  {
+    "path": "assets/audio/cc0/foley/openclose_drawer_09338.wav",
+    "git_blob_sha": "f256f94b77f9a5bdedaf9036c410743a1c90b13b",
+    "category": "foley",
+    "license": "CC0-1.0 (as documented by upstream dataset)",
+    "source": "https://github.com/stephenbrade/foleyset-oneshot-examples/blob/ebe1646db77362ca30c20a78cbc5c6f7b36fb9f9/examples/openclose_drawer_09338.wav",
+    "status": "candidate_unheard"
+  }
+]
