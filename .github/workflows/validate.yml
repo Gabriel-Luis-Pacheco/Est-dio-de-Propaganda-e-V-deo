@@ -21,3 +21,4 @@ jobs:
       - run: python tests/test_stage_gate.py
       - run: python tests/test_release_hardened.py
       - run: python -m py_compile scripts/stage-gate.py scripts/release-gate.py
+      - run: python -m py_compile scripts/creative-audit.py scripts/run-render.py

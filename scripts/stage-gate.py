@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Evidence gate for staged creative production; never a taste or authenticity certificate."""
-import argparse, hashlib, json, math, subprocess, sys
+import argparse, hashlib, importlib.util, json, math, subprocess, sys
 from pathlib import Path
 
 STAGES = {
@@ -89,14 +89,33 @@ def release_bindings(stages, release):
         except (KeyError,TypeError,ValueError): errors.append(name+"/"+key+": differs from release "+artifact)
     return errors
 
+def audit(job,manifest,through):
+    spec=importlib.util.spec_from_file_location("creative_audit",Path(__file__).with_name("creative-audit.py"))
+    mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
+    return mod.audit(job,manifest,through)
+def reset(manifest,name):
+    """Invalidate this stage and all descendants; preserve historical observations/issue ledger."""
+    keys=list(STAGES)
+    for k in keys[keys.index(name):]:
+        s=manifest["stages"][k];s["decision"]="pending";s["previous_sha256"]=""
+        s.pop("master_sha256",None)
+        for check in s["checks"].values():
+            check["decision"]="pending";check["evidence"]["sha256"]=""
+    return manifest
 def seal(job, manifest, name):
     """Populate hashes from existing evidence. Never changes a decision or a review."""
     s=manifest["stages"][name]; keys=list(STAGES); i=keys.index(name)
-    s["previous_sha256"]=stage_digest(manifest["stages"][keys[i-1]]) if i else ""
+    predecessor=stage_digest(manifest["stages"][keys[i-1]]) if i else ""
+    if s["decision"]=="pass" and s.get("previous_sha256") and s["previous_sha256"]!=predecessor:
+        raise ValueError("stale predecessor: reset and re-review stage "+name)
+    s["previous_sha256"]=predecessor
     def fill(item):
         p=(job/item["path"]).resolve()
         if not p.is_relative_to(job.resolve()) or not p.is_file() or not p.stat().st_size: raise ValueError("missing/empty/outside job: "+str(p))
-        item["sha256"]=digest(p)
+        h=digest(p)
+        if s["decision"]=="pass" and item.get("sha256") and item["sha256"]!=h:
+            raise ValueError("changed evidence: reset and re-review stage "+name)
+        item["sha256"]=h
     for key in STAGES[name]: fill(s["checks"][key]["evidence"])
     for issue in s["issues"]:
         if issue.get("status")=="resolved" and issue.get("retest"): fill(issue["retest"])
@@ -105,16 +124,22 @@ def seal(job, manifest, name):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__); p.add_argument("job",type=Path); p.add_argument("--through",choices=STAGES,required=True); p.add_argument("--manifest",default="qa/stage-manifest.json"); p.add_argument("--master-sha"); p.add_argument("--seal",action="store_true",help="populate hashes for this stage only; does not approve it")
+    p.add_argument("--reset",action="store_true",help="invalidate this stage and descendants")
     a=p.parse_args()
     try:
         job=a.job.resolve(); path=(job/a.manifest).resolve()
         if not path.is_relative_to(job): raise ValueError("manifest outside job")
         manifest=json.loads(path.read_text())
-        if a.seal:
-            seal(job,manifest,a.through)
+        if a.seal and a.reset: raise ValueError("choose --seal or --reset")
+        if a.reset or a.seal:
+            if a.reset: reset(manifest,a.through)
+            else: seal(job,manifest,a.through)
             tmp=path.with_suffix(path.suffix+".tmp")
             tmp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n"); tmp.replace(path)
+        if a.reset:
+            print(json.dumps({"status":"STAGES_INVALIDATED","from":a.through})); return 0
         errors=evaluate(job,manifest,a.through,a.master_sha)
+        if not errors: errors.extend(audit(job,manifest,a.through))
     except Exception as e: errors=["invalid/missing stage manifest: "+str(e)]
     print(json.dumps({"status":"STAGE_BLOCKED" if errors else "STAGE_EVIDENCE_PASSED","through":a.through,"artistic_quality_certified":False,"errors":errors},ensure_ascii=False,indent=2))
     return int(bool(errors))

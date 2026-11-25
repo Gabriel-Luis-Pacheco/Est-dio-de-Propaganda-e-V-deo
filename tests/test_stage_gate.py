@@ -1,4 +1,4 @@
-import copy, importlib.util, json, subprocess, tempfile, unittest
+import copy, importlib.util, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location("stage",ROOT/"scripts/stage-gate.py")
@@ -65,6 +65,26 @@ class StageTests(unittest.TestCase):
                 subprocess.run(["ffmpeg","-nostdin","-v","error","-f","lavfi","-i",sources[i]+"=size=160x90:rate=10","-f","lavfi","-i","sine=frequency="+str(440+i*30)+":sample_rate=48000","-t","2","-c:v","libx264","-threads","1","-pix_fmt","yuv420p","-c:a","aac",str(p)],check=True)
                 i+=1
                 self.m["stages"][name]["checks"][key]["evidence"]={"path":p.name,"sha256":stage.digest(p)}
+            self.m["stages"][name]["previous_sha256"]=""
             stage.seal(self.job,self.m,name)
         self.assertEqual(self.errors(probe=True),[])
+    def test_reseal_changed_bytes_requires_review(self):
+        (self.job/"G0-capacity.txt").write_text("modified")
+        with self.assertRaisesRegex(ValueError,"reset and re-review"):stage.seal(self.job,self.m,"G0")
+    def test_reseal_stale_predecessor_requires_review(self):
+        self.m["stages"]["G0"]["reviewer"]="changed"
+        with self.assertRaisesRegex(ValueError,"stale predecessor"):stage.seal(self.job,self.m,"G1")
+    def test_reset_invalidates_descendants(self):
+        stage.reset(self.m,"G2")
+        self.assertEqual(self.m["stages"]["G1"]["decision"],"pass")
+        self.assertEqual(self.m["stages"]["G5"]["decision"],"pending")
+        self.assertEqual(self.m["stages"]["G3"]["checks"]["animatic_a"]["decision"],"pending")
+    def test_render_blocked_without_manifest(self):
+        marker=self.job/"renderer-executed"
+        r=subprocess.run([sys.executable,str(ROOT/"scripts/run-render.py"),str(self.job),"--",sys.executable,"-c","from pathlib import Path;Path('renderer-executed').touch()"],capture_output=True)
+        self.assertNotEqual(r.returncode,0);self.assertFalse(marker.exists())
+    def test_structured_audit_blocks_text_only(self):
+        e=stage.audit(self.job,self.m,"G2")
+        self.assertTrue(any("structured JSON" in x for x in e))
+        self.assertTrue(any("five distinct concepts" in x for x in e))
 if __name__=="__main__":unittest.main()

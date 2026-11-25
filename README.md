@@ -65,3 +65,6 @@ Os vídeos de terceiros e links privados do Drive não fazem parte do repositór
 - `python scripts/stage-gate.py JOB --through G0` e repetir até G4 antes de render completo; G5 após draft. [Manifesto](templates/stage-manifest.json), SHA256 de evidências, predecessor e master. Release CLI exige histórico G0–G5. `python tests/test_stage_gate.py` testa estrutura; fixture sintética não valida arte. Não há novo vídeo ou benchmark artístico nesta mudança.
 
 Preencher caminhos/reviews reais e usar `--seal` para computar hashes, sem aprovação automática. A/B animatics, timeline e hero são cruzados com o manifesto de release; arquivos diferentes bloqueiam release.
+
+### Creative evidence hardening
+[Structured records and reviews](references/creative-evidence-contract.md). Full render via `python scripts/run-render.py JOB -- <renderer>`; `--reset` invalidates stages and `--seal` rejects stale approved evidence. Automated checks do not certify creative merit or prevent direct execution outside the workflow.
