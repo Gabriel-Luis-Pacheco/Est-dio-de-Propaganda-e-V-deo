@@ -8,6 +8,9 @@ git clone https://github.com/Gabriel-Luis-Pacheco/skill-propaganda-batatalk.git 
 Se já instalou via clone, faça git pull; se houver mudanças locais, faça backup antes de sincronizar. Para Codex, use a pasta de skills configurada pelo seu ambiente. Comece em [SKILL.md](SKILL.md).
 
 ## Estrutura
+- references/reference-lab.md — 25 MP4 estudados por amostragem visual, mecanismos e recomendações.
+- references/upstream-audit.md — regras concretas de 15 SKILL.md oficiais consultados.
+- docs/validation-2026-11-25.md — testes reais, limites e reprovação criativa da prova técnica.
 - references/creative-operations.md — roteamento operacional de especialistas, laboratório de referências e gates com evidência.
 - templates/reference-study.json — ficha de análise por vídeo/beat.
 - references/product.md — produto real, claims, identidade e localização.

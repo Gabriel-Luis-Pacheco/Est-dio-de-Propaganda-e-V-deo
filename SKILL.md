@@ -23,6 +23,9 @@ Pedido atual e limites do dono > produto público efetivamente testado > identid
 | Muitas versões / idiomas | estratégia + stack; timeline e textos parametrizados, Remotion ou HyperFrames |
 | Só ideia, texto ou roteiro | entregar isso, sem renderizar desnecessariamente |
 
+## Conhecimento já observado
+Antes de criar, use [reference-lab.md](references/reference-lab.md): análise visual de 25 MP4 reais com 300 quadros e fichas por timestamp; selecione mecanismos conforme a missão. Leia [upstream-audit.md](references/upstream-audit.md) para regras concretas das skills oficiais. O relatório [validação](docs/validation-2026-11-25.md) distingue sucesso técnico de qualidade comercial. Nunca declarar a prova de motion aprovada só por renderizar.
+
 ## Contrato de execução e evidência
 Leia [creative-operations.md](references/creative-operations.md) antes de um job completo: matriz de especialistas acionáveis, revisão comparativa, referência medida e gates de execução. Um link no relatório não conta como habilidade usada; abra o SKILL.md da ferramenta selecionada, aplique seus procedimentos e anexe evidência. Entrega incompleta deve ser rotulada, nunca mascarada.
 

@@ -1,5 +1,5 @@
 # Biblioteca de motion — 25 referências fornecidas
-Curadoria recebida em 25/11/2026: relata 568 posts, 25 MP4, 7 artigos, links e licenças conferidos pelo autor. Não é auditoria independente; as peças não foram assistidas nesta atualização. Use cópias autorizadas localmente, não publique vídeos de terceiros nem links privados do Drive no repositório público.
+Curadoria recebida em 25/11/2026: relata 568 posts, 25 MP4, 7 artigos, links e licenças conferidos pelo autor. Não é auditoria independente; uma análise posterior abriu os 25 MP4 e inspecionou 300 quadros; ver reference-lab.md. Use cópias autorizadas localmente, não publique vídeos de terceiros nem links privados do Drive no repositório público.
 
 | ID | Fonte pública | O que estudar |
 |---|---|---|
@@ -35,4 +35,4 @@ Complementos: https://x.com/edgrows/status/2123684109717213464 (briefing vs skil
 Guardar MP4 locais com prefixos 01–25; registrar arquivo, hash, URL, autor, direitos, resolução, fps, duração, sheets, trecho, mecanismo, beat de destino. Iniciar com 01, 02, 03, 11, 13 para launch, flyover, educativo e demo. Não usar 25 vídeos inteiros como input de cada job; selecionar e cachear análise. Revisar links e autoria; visualizações, estrelas, duração ideal e custo declarados são observações/alegações, não resultado causal. Não tratar posts virais copiados como evidência independente.
 
 ## Ingestão completa (uma vez, sob demanda)
-Use os ZIPs originais fornecidos pelo dono em ambiente autorizado. Mapear prefixos 01–07, 08–17 e 18–25. Para cada arquivo real, gerar ficha de templates/reference-study.json e evidência de frames com scripts/inspect-video.py. Registrar faltantes e duplicatas. Não marcar a biblioteca como estudada até que os 25 arquivos estejam inspecionados. Consolidar catálogo de mecanismos, não apenas resumos de posts. Manter MP4s e links privados fora do Git público.
+Use os ZIPs originais fornecidos pelo dono em ambiente autorizado. Mapear prefixos 01–07, 08–17 e 18–25. Para cada arquivo real, gerar ficha de templates/reference-study.json e evidência de frames com scripts/inspect-video.py. Registrar faltantes e duplicatas. Biblioteca já inspecionada por amostragem em reference-lab.md; análise densa de um gesto específico ainda deve ocorrer quando selecionado. Consolidar catálogo de mecanismos, não apenas resumos de posts. Manter MP4s e links privados fora do Git público.
