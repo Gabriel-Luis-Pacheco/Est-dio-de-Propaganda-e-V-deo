@@ -1,0 +1,30 @@
+name: Creative lab smoke
+on:
+  push:
+    paths: ['arsenal/motion/**', 'scripts/render-motion-preview.py', 'tests/test_motion.mjs', '.github/workflows/creative-lab.yml']
+  pull_request:
+    paths: ['arsenal/motion/**', 'scripts/render-motion-preview.py', 'tests/test_motion.mjs', '.github/workflows/creative-lab.yml']
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: node tests/test_motion.mjs
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg libcairo2
+      - run: python -m pip install cairosvg
+      - run: |
+          python scripts/render-motion-preview.py shape-morph --out qa/shape.mp4 --fps 12 --seconds 1
+          python scripts/render-motion-preview.py cursor-cause --out qa/cursor.mp4 --fps 12 --seconds 1
+          ffprobe -v error -show_entries format=duration -of json qa/shape.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: motion-smoke
+          path: qa/*.mp4

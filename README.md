@@ -53,3 +53,9 @@ Os vídeos de terceiros e links privados do Drive não fazem parte do repositór
 - [Audio Studio](arsenal/audio/README.md): 2357 candidatos Foley indexados; 32 assets locais prévios. Não foram ouvidos nesta rodada.
 - [Arsenal visual](arsenal/visual/README.md), [diretor criativo](references/creative-director.md), [orquestração](references/studio-orchestration.md).
 - [12 briefs de benchmark](evals/creative-benchmark/README.md), [status e limites](docs/creative-os-status.md).
+
+### Laboratório operacional
+- [Motion DNA](docs/motion-dna-lab.md): optical flow, candidatos de corte/ataque, resultados reais de dois MP4.
+- [Dois estudos 3D reais](arsenal/spatial/README.md): geometria, materiais, câmera e luz; VTK/EGL contingência.
+- `scripts/render-motion-preview.py`: export de estudos SVG para MP4 (CairoSVG + Node + FFmpeg), smoke CI ainda não confirmado.
+- `scripts/score-blind-benchmark.py`: sumariza votos reais cegos, sem fabricar dados.

@@ -1,0 +1,77 @@
+{
+  "status": "executed_two_of_25",
+  "method": "4fps downsampled optical flow and audio attack candidates; not verified cuts or BPM",
+  "data": [
+    {
+      "id": 12,
+      "sample_fps": 4,
+      "sample_size": [
+        160,
+        90
+      ],
+      "duration_est": 18.75,
+      "cut_candidates": [],
+      "flow_p90_px_per_s_quantiles": [
+        0.03,
+        0.64,
+        16.5
+      ],
+      "audio_attack_candidates": [
+        0.25,
+        0.95,
+        1.07,
+        3.1,
+        4.59,
+        5.26,
+        6.38,
+        6.5,
+        6.75,
+        7.29,
+        11.6,
+        11.76,
+        12.04,
+        12.29,
+        12.6,
+        12.88,
+        13.02,
+        13.59,
+        13.74,
+        14,
+        14.16,
+        14.3,
+        14.49,
+        14.63,
+        15.41,
+        15.67,
+        15.87,
+        17.97,
+        18.19
+      ]
+    },
+    {
+      "id": 20,
+      "sample_fps": 4,
+      "sample_size": [
+        160,
+        90
+      ],
+      "duration_est": 15.25,
+      "cut_candidates": [],
+      "flow_p90_px_per_s_quantiles": [
+        0.24,
+        0.54,
+        5.36
+      ],
+      "audio_attack_candidates": [
+        0.14,
+        2.47,
+        2.74,
+        3.03,
+        3.45,
+        7.63,
+        11.45,
+        15.14
+      ]
+    }
+  ]
+}

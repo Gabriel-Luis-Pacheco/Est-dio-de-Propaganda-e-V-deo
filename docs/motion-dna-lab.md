@@ -1,0 +1,10 @@
+# Motion DNA and execution lab
+## Actual run
+`scripts/motion-dna.py` reads local video with FFmpeg, computes dense Farneback optical flow with OpenCV, rough histogram/luminance cut candidates and audio RMS-attack candidates. [OpenCV method](https://docs.opencv.org/4.x/d4/dee/tutorial_optical_flow.html). Sampled 160x90 at 4fps for references 12 and 20, successful decode; whole-25 batch exceeded time budget and was stopped. [Measured results](motion-dna-sample.json). P90 flow magnitude is in downscaled px/s, not real object speed; quantiles across frames. Letterboxing, compression and cuts affect results. Zero cuts detected does not mean no cuts; 4fps cannot resolve microgestures or beat sync; no BPM/semantic rhythm inferred. For chosen motion, track named object manually or via LK at native fps, compare start, contact, peak, settle, trajectory and acceleration against rendered test. Mark confidence and occlusion. Do not infer exact easing from flow alone. 
+`python scripts/motion-dna.py reference.mp4 --out qa/dna.json --fps 12` (FFmpeg, OpenCV, NumPy). For large libraries, run one clip at a time, cache by hash and config. Use existing pacing review for intent.
+ 
+## 3D contingency proof
+`python arsenal/spatial/spatial_study.py orbit --out qa/orbit.mp4 --fps 12 --seconds 2` or stack. VTK 9.6.2/EGL, actual geometry, PBR properties, camera changes and three lights. Both locally rendered 640×360, 24 frames, H.264, 2.000s; midpoint frames inspected. No audio, no shadows, minimal composition; both are technical studies, not polished 3D ads. VTK remains fallback; Blender not available locally. Test camera, material, lighting, occlusion, physical contact and geometry in the real job.
+ 
+## 2D rendering
+`python scripts/render-motion-preview.py shape-morph --out qa/shape.mp4` converts actual SVG frames with CairoSVG; code configured but not executed against entire published library because container cannot fetch repository. Node/V8 frame tests ran when authoring. CI smoke configuration added; do not claim run until status confirmed. 
