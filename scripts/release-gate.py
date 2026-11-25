@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Fail-closed evidence gate. Does not judge artistic merit or authenticate reviewers."""
-import argparse, hashlib, json, math, subprocess, sys
+import argparse, hashlib, importlib.util, json, math, subprocess, sys
 from fractions import Fraction
 from urllib.parse import urlparse
 from pathlib import Path
@@ -93,10 +93,19 @@ def evaluate(job, manifest):
             pr=json.loads(paths["pacing_report"].read_text())
             if not master or pr.get("master_sha256")!=digest(master): raise ValueError("report not bound to master")
             if not paths["timeline"] or pr.get("timeline_sha256")!=digest(paths["timeline"]): raise ValueError("report not bound to timeline")
+            if not timeline: raise ValueError("valid timeline required")
+            method=pr.get("method",{})
+            expected={"fps":timeline["fps"],"width":320,"height":180,"rgb_max_delta_gt":8,"low_changed_pixel_fraction_lt":.01}
+            if any(method.get(k)!=v for k,v in expected.items()): raise ValueError("noncanonical pacing method")
+            spec=importlib.util.spec_from_file_location("pacing",Path(__file__).with_name("analyze-pacing.py"))
+            mod=importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+            measured=mod.analyze(mod.decode(master,timeline["fps"],320,180),timeline["fps"],8,.01,timeline["beats"])
+            for key in ("sampled_frames","compared_seconds","overall","low_intervals","per_second","beats"):
+                if pr.get(key)!=measured[key]: raise ValueError("pacing measurement mismatch: "+key)
             windows=pr["review_windows"]
             if not isinstance(windows,list): raise ValueError("review_windows must be array")
             for w in windows:
-                if not nonblank(w.get("reason")) or w.get("decision") not in ("intentional_hold","repaired") or not evidence(w.get("evidence"),"pacing window"): raise ValueError("unreviewed suspicious window")
+                if not isinstance(w,dict) or type(w.get("start")) not in (int,float) or type(w.get("end")) not in (int,float) or not 0<=w["start"]<w["end"]<=timeline["duration"]+1e-6 or not nonblank(w.get("reason")) or w.get("decision") not in ("intentional_hold","repaired") or not evidence(w.get("evidence"),"pacing window"): raise ValueError("unreviewed suspicious window")
             if timeline and (not isinstance(pr.get("sampled_frames"),int) or abs(pr["sampled_frames"]-timeline["duration"]*timeline["fps"])>1): raise ValueError("sampling coverage differs from master")
             for interval in pr["low_intervals"]:
                 if interval["seconds"]>=1 and not any(w["start"]<=interval["start"]+.04 and w["end"]>=interval["end"]-.04 for w in windows): raise ValueError("low-activity interval missing review")
@@ -105,7 +114,7 @@ def evaluate(job, manifest):
         except Exception as e: fail("pacing_report: "+str(e))
     refs=manifest.get("references",[])
     if not isinstance(refs,list): refs=[]
-    valid=[r for r in refs if isinstance(r,dict) and nonblank(r.get("url")) and urlparse(r["url"]).scheme in ("https","http") and nonblank(r.get("timestamp")) and nonblank(r.get("mechanism")) and r.get("observed") is True]
+    valid=[r for r in refs if isinstance(r,dict) and nonblank(r.get("url")) and urlparse(r["url"]).scheme in ("https","http") and bool(urlparse(r["url"]).netloc) and nonblank(r.get("timestamp")) and nonblank(r.get("mechanism")) and r.get("observed") is True]
     for role,n in (("LOOK",5),("MOVES",3),("SOUND",3)):
         unique=set(); hashes=set()
         for r in valid:
