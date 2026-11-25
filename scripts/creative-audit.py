@@ -22,7 +22,7 @@ def audit(job,manifest,through="G5",probe=True):
             if not p.is_relative_to(job.resolve()) or not p.is_file() or not p.stat().st_size or sha(p)!=ref["sha256"]:raise ValueError()
             return p
         except Exception:fail(label,"invalid or stale evidence");return None
-    def unique(ref,label,kind=None):
+    def unique(ref,label,kind=None,moving=False):
         p=file(ref,label)
         if p is None:return None
         h=sha(p)
@@ -32,6 +32,9 @@ def audit(job,manifest,through="G5",probe=True):
             try:
                 data=json.loads(subprocess.check_output(["ffprobe","-v","error","-show_streams","-of","json",str(p)],timeout=30))
                 if kind not in {s["codec_type"] for s in data["streams"]}:raise ValueError("missing stream")
+                if moving:
+                    count=json.loads(subprocess.check_output(["ffprobe","-v","error","-count_frames","-select_streams","v:0","-show_entries","stream=nb_read_frames","-of","json",str(p)],timeout=90))
+                    if int(count["streams"][0]["nb_read_frames"])<2:raise ValueError("still is not motion evidence")
                 subprocess.run(["ffmpeg","-nostdin","-v","error","-xerror","-i",str(p),"-map","0:"+("a" if kind=="audio" else "v")+":0","-f","null","-"],check=True,stderr=subprocess.PIPE,timeout=90)
             except Exception:fail(label,"not decodable "+kind+" evidence")
         return p
@@ -66,7 +69,7 @@ def audit(job,manifest,through="G5",probe=True):
             if role not in role_urls or not isinstance(url,str) or urlparse(url).scheme not in ("http","https") or not urlparse(url).netloc or not nonblank(r.get("timestamp")) or r.get("observed") is not True:fail(label,"missing source/time/observation");continue
             texts(r,("mechanism","transfer","avoid"),label)
             if not nonblank(r.get("rights")):fail(label,"rights/access not recorded")
-            if unique(r.get("media"),label,"audio" if role=="SOUND" else "video"):role_urls[role].add(url)
+            if unique(r.get("media"),label,"audio" if role=="SOUND" else "video",moving=role=="MOVES"):role_urls[role].add(url)
         for k,n in (("LOOK",5),("MOVES",3),("SOUND",3)):
             if len(role_urls[k])<n:fail("references",k+" minimum "+str(n))
         minimum=d.get("requested_minimum",0)

@@ -1,0 +1,341 @@
+{
+  "note": "SCHEMA EXAMPLES ONLY: split into separate actual files per check; not evidence. Never set pass without actual review.",
+  "five_concepts": {
+    "concepts": [
+      {
+        "id": "",
+        "premise": "",
+        "visual_mechanism": "",
+        "brand_specificity": "",
+        "payoff": "",
+        "decision": "",
+        "reason": ""
+      }
+    ]
+  },
+  "reference_calibration": {
+    "requested_minimum": 0,
+    "references": [
+      {
+        "id": "",
+        "role": "",
+        "url": "",
+        "timestamp": "",
+        "observed": false,
+        "mechanism": "",
+        "transfer": "",
+        "avoid": "",
+        "rights": "",
+        "media": {
+          "path": "",
+          "sha256": ""
+        }
+      }
+    ]
+  },
+  "styleframes": {
+    "frames": [
+      {
+        "id": "",
+        "role": "",
+        "decision": "",
+        "score": null,
+        "observation": "",
+        "comparison": "",
+        "reason": "",
+        "media": {
+          "path": "",
+          "sha256": ""
+        }
+      }
+    ]
+  },
+  "canonical_timeline": {
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "duration": 0,
+    "beats": [
+      {
+        "id": "",
+        "start": 0,
+        "end": 0,
+        "before": "",
+        "action": "",
+        "consequence": "",
+        "novelty": "",
+        "camera_reason": "",
+        "transition_reason": "",
+        "reading_hold_reason": "",
+        "audio_cue": ""
+      }
+    ],
+    "audio": [],
+    "captions": []
+  },
+  "audio_directions": {
+    "directions": [
+      {
+        "id": "",
+        "decision": "",
+        "auditioned": false,
+        "intent": "",
+        "heard_observation": "",
+        "reason": "",
+        "rights": "",
+        "media": {
+          "path": "",
+          "sha256": ""
+        }
+      }
+    ]
+  },
+  "regression_review": {
+    "regressions": [
+      {
+        "id": "V2-01",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-02",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-03",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-04",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-05",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-06",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-07",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-08",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-09",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-10",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-11",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-12",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-13",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-14",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-15",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-16",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-17",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      },
+      {
+        "id": "V2-18",
+        "decision": "pending",
+        "timestamp": "",
+        "observation": "",
+        "reason": "",
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      }
+    ],
+    "beats": [
+      {
+        "id": "",
+        "dimensions": {
+          "composition": {
+            "score": null,
+            "observation": "",
+            "comparison": ""
+          },
+          "motion": {
+            "score": null,
+            "observation": "",
+            "comparison": ""
+          },
+          "pacing": {
+            "score": null,
+            "observation": "",
+            "comparison": ""
+          },
+          "continuity": {
+            "score": null,
+            "observation": "",
+            "comparison": ""
+          },
+          "typography": {
+            "score": null,
+            "observation": "",
+            "comparison": ""
+          },
+          "commercial_clarity": {
+            "score": null,
+            "observation": "",
+            "comparison": ""
+          },
+          "sound_sync": {
+            "score": null,
+            "observation": "",
+            "comparison": ""
+          }
+        },
+        "evidence": {
+          "path": "",
+          "sha256": ""
+        }
+      }
+    ]
+  }
+}
