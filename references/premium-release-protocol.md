@@ -1,6 +1,9 @@
 # Premium release protocol — hard gate
 Read before production; supersedes permissive delivery language. A render is not a release. Use labels **STUDY**, **ANIMATIC**, **REJECTED DRAFT**, **REVIEW CANDIDATE**, **RELEASE**. Never call a failed or unreviewed export final/premium/client-ready. User still receives best playable draft and limitations, not a refusal to deliver. The evidence gate cannot certify taste and self-scoring never substitutes for audience/human approval.
 
+## Mandatory pre-production lock
+Follow [G0–G5 operational protocol](creative-preproduction-lock.md) and stage manifest before rendering. Run stage-gate.py at each milestone; release-gate.py CLI now requires complete G0–G5 chained evidence bound to the master. See [second failure](../docs/abacatepay-v2-regression.md). Existing release requirements remain; no later gate substitutes for earlier craft review.
+
 ## 0. Capability budget (before concepts)
 Inventory reference playback/audio, brand fonts/logo, licensed music/foley, geometry/backend, shading, compositing, compute, rendering time and reviewer access. Render representative 2–5s including actual hero, camera, shadows/contacts, text/transition and audio, not spinning primitives. A VTK/EGL geometry smoke test does not establish premium CGI. If physically convincing 3D cannot pass, redesign for exceptional intentional 2D or give labeled study; do not silently substitute simplified primitives. No expensive installation, external upload or purchase without authorization.
 

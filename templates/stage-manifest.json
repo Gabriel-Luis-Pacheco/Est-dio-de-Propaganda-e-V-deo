@@ -1,0 +1,449 @@
+{
+  "stages": {
+    "G0": {
+      "previous_sha256": "",
+      "decision": "pending",
+      "reviewer": "",
+      "review_mode": "",
+      "checks": {
+        "capacity": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "brand_claims": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "rights": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "reference_access": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "audio_access": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "technical_feasibility": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        }
+      },
+      "issues": []
+    },
+    "G1": {
+      "previous_sha256": "",
+      "decision": "pending",
+      "reviewer": "",
+      "review_mode": "",
+      "checks": {
+        "reference_calibration": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "five_concepts": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "brand_swap": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "story": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "commercial_proof": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "originality": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        }
+      },
+      "issues": []
+    },
+    "G2": {
+      "previous_sha256": "",
+      "decision": "pending",
+      "reviewer": "",
+      "review_mode": "",
+      "checks": {
+        "styleframes": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "rejected_route": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "composition": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "typography_brand": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "materials_light": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "mobile_grayscale": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        }
+      },
+      "issues": []
+    },
+    "G3": {
+      "previous_sha256": "",
+      "decision": "pending",
+      "reviewer": "",
+      "review_mode": "",
+      "checks": {
+        "animatic_a": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "animatic_b": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "editorial_comparison": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "canonical_timeline": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "pacing": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "audio_directions": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "cue_sync": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        }
+      },
+      "issues": []
+    },
+    "G4": {
+      "previous_sha256": "",
+      "decision": "pending",
+      "reviewer": "",
+      "review_mode": "",
+      "checks": {
+        "hero_test": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "transition_test": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "signature_test": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "motion_craft": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "camera": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "lookdev": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "typography_motion": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "sound_sync": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        }
+      },
+      "issues": []
+    },
+    "G5": {
+      "previous_sha256": "",
+      "decision": "pending",
+      "reviewer": "",
+      "review_mode": "",
+      "master_sha256": "",
+      "checks": {
+        "draft_playback": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "mute_audio_combined": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "baseline_comparison": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "revision_retest": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "technical_qa": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        },
+        "regression_review": {
+          "decision": "pending",
+          "observation": "",
+          "comparison": "",
+          "reason": "",
+          "evidence": {
+            "path": "",
+            "sha256": ""
+          }
+        }
+      },
+      "issues": []
+    }
+  }
+}

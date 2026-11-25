@@ -17,3 +17,7 @@ jobs:
       - run: python tests/test_timeline.py
       - run: python scripts/validate-timeline.py templates/timeline.json
       - run: python -m py_compile scripts/analyze-library.py scripts/inspect-video.py scripts/analyze-pacing.py
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python tests/test_stage_gate.py
+      - run: python tests/test_release_hardened.py
+      - run: python -m py_compile scripts/stage-gate.py scripts/release-gate.py

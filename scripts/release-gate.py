@@ -161,7 +161,16 @@ def main():
     p.add_argument("job",type=Path)
     p.add_argument("--manifest",default="qa/release-manifest.json")
     a=p.parse_args()
-    try: errors=evaluate(a.job.resolve(),json.loads((a.job/a.manifest).read_text()))
+    try:
+        job=a.job.resolve()
+        manifest=json.loads((job/a.manifest).read_text())
+        errors=evaluate(job,manifest)
+        spec=importlib.util.spec_from_file_location("stage_gate",Path(__file__).with_name("stage-gate.py"))
+        stage=importlib.util.module_from_spec(spec); spec.loader.exec_module(stage)
+        try:
+            stages=json.loads((job/"qa/stage-manifest.json").read_text())
+            errors.extend(stage.evaluate(job,stages,"G5",manifest.get("master",{}).get("sha256")))
+        except Exception as e: errors.append("stage history missing/invalid: "+str(e))
     except Exception as e: errors=["invalid/missing manifest: "+str(e)]
     print(json.dumps({"status":"EVIDENCE_GATE_BLOCKED" if errors else "EVIDENCE_GATE_PASSED",
                       "artistic_quality_certified":False,"errors":errors},indent=2,ensure_ascii=False))
